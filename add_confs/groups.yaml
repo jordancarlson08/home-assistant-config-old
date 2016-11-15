@@ -1,0 +1,57 @@
+
+###################
+### groups.yaml ###
+###################
+
+default_view:
+  view: yes
+  name: Home
+  entities:
+    - sun.sun
+    - device_tracker.jenna_jenna_iphone
+    - device_tracker.jordan_jordan_phone
+    - sensor.weather_temperature
+    - group.master_bedroom
+    - group.door_back
+    - group.garage_info
+
+info:
+  view: yes
+  name: Info
+  entities:
+    - sensor.disk_use_home
+    - sensor.ram_use
+    - group.home_assistant_status
+    - group.door_info
+
+
+master_bedroom:
+  name: Master Bedroom
+  entities:
+    - light.dimmer_module_level_13
+    - switch.outdoor_switch_switch_8
+
+door_back:
+  name: Back Door
+  entities:
+    - lock.kwikset_touchpad_electronic_deadbolt_locked_12
+    - sensor.back_door
+
+home_assistant_status:
+  name: System
+  entities:
+    - script.restart_ha
+    - script.reload_ha
+    - script.roku_home
+
+door_info:
+  name: Doors
+  entities:
+    - sensor.batt_back_door_lock
+    - sensor.batt_back_door
+
+garage_info:
+  name: Garage
+  entities:
+    - garage_door.garage_door
+    - sensor.garage_door_state

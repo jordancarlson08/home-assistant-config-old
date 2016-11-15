@@ -1,0 +1,2 @@
+
+roku_home: sh /home/hass/.homeassistant/add_confs/shell_commands/roku_home.sh

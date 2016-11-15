@@ -1,0 +1,46 @@
+
+#######################
+### automation.yaml ###
+#######################
+
+### Door triggered light ############################################
+- alias: 'Jenna Night Light ON'
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_9
+      from: 'off'
+      to: 'on'
+  action:
+    service: light.turn_on
+    entity_id: light.dimmer_module_level_13
+
+- alias: 'Jenna Night Light OFF'
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_9
+      from: 'on'
+      to: 'off'
+  action:
+    service: light.turn_off
+    entity_id: light.dimmer_module_level_13
+
+
+### Heating Pad Schedule ##########################################
+- alias: 'Heating Pad ON'
+  trigger:
+    - platform: time
+      after: '20:30:00'
+  action:
+    service: switch.turn_on
+    entity_id: switch.outdoor_switch_switch_8
+
+- alias: 'Heating Pad OFF'
+  trigger:
+    - platform: time
+      after: '10:30:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.outdoor_switch_switch_8
+
+
+

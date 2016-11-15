@@ -1,0 +1,72 @@
+
+######################
+### Home Assistant ###
+######################
+
+### Additional config files: add_confs/ ###
+
+homeassistant:
+  name: Home
+  latitude: 40.2376181
+  longitude: -111.63375
+  elevation: 4564
+  unit_system: imperial
+  time_zone: America/Denver
+
+  customize: !include add_confs/customize.yaml
+
+#logger:
+frontend:
+updater:
+conversation:
+history:
+logbook:
+sun:
+sensor: !include add_confs/sensors.yaml
+zone: !include add_confs/zones.yaml
+group: !include add_confs/groups.yaml
+automation: !include add_confs/automation.yaml
+script: !include add_confs/scripts.yaml
+shell_command: !include add_confs/shell_commands.yaml
+
+http:
+  api_password: !secret http_password
+  server_host: '127.0.0.1'
+  ssl_certificate: /etc/letsencrypt/live/home.jordancarlson.me/fullchain.pem
+  ssl_key: /etc/letsencrypt/live/home.jordancarlson.me/privkey.pem
+
+#mqtt:
+#  broker: m11.cloudmqtt.com
+#  port: 12396
+#  username: Home Assistant
+#  password: !secret mqtt_password
+
+notify:
+  name: HTML5
+  platform: html5
+  gcm_api_key: !secret gcm_api_key
+  gcm_sender_id: !secret gcm_sender_id
+
+#device_tracker:
+#  platform: owntracks
+#  max_gps_accuracy: 200
+
+zwave:
+  usb_path: /dev/serial/by-id/usb-0658_0200-if00
+
+#garage_door:
+#  - platform: mqtt
+#    state_topic: "garage/state"
+#    command_topic: "garage/command"
+#    name: "Garage Door"
+#    qos: 0
+#    payload_open: "SERVICE_OPEN"
+#    payload_close: "SERVICE_CLOSE"
+#    payload_stop: "SERVICE_STOP"
+#    service_open: "SERVICE_OPEN"
+#    service_close: "SERVICE_CLOSE"
+#    state_open: "STATE_OPEN"
+#    state_closed: "STATE_CLOSED"
+#    optimistic: true
+#    retain: false
+#    value_template: '{{ value.x }}'

@@ -1,0 +1,55 @@
+
+####################
+### sensors.yaml ###
+####################
+
+#- platform: darksky
+#  api_key: cb418599d67f172b250a72119e8a601d
+#  monitored_conditions:
+#    - temperature
+
+- platform: template
+  sensors:
+    batt_back_door:
+      friendly_name: 'Back Door Battery'
+      value_template: >-
+                      {%- if states.binary_sensor.ecolink_doorwindow_sensor_sensor_9 %}
+                        {{ states.binary_sensor.ecolink_doorwindow_sensor_sensor_9.attributes.battery_level }}
+                      {% else %}
+                        n/a
+                      {%- endif %}
+      unit_of_measurement: '%'
+
+- platform: template
+  sensors:
+    back_door:
+      friendly_name: 'Status'
+      value_template: >-
+        {%- if states("binary_sensor.ecolink_doorwindow_sensor_sensor_9") == "off" %}
+          closed
+        {% else %}
+          open
+        {%- endif %}
+
+- platform: template
+  sensors:
+    batt_back_door_lock:
+      friendly_name: 'Back Door Lock Battery'
+      value_template: >-
+                      {%- if states.lock.kwikset_touchpad_electronic_deadbolt_locked_12 %}
+                        {{ states.lock.kwikset_touchpad_electronic_deadbolt_locked_12.attributes.battery_level }}
+                      {% else %}
+                        n/a
+                      {%- endif %}
+      unit_of_measurement: '%'
+
+- platform: systemmonitor
+  resources:
+    - type: disk_use_percent
+      arg: /home
+    - type: memory_use_percent
+
+#- platform: mqtt
+#  state_topic: "garage/state"
+#  name: "garage_door_state"
+#  qos: 0

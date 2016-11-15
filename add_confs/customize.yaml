@@ -1,0 +1,78 @@
+
+######################
+### customize.yaml ###
+######################
+
+### Hidden ###
+
+media_player.carlson_chromecast:
+  hidden: true
+configurator.plex_media_server:
+  hidden: true
+media_player.roku_4e653r006581:
+  hidden: true
+media_player.roku_4e653w004136:
+  friendly_name: Ras Living Room
+  hidden: true
+media_player.plex_web_chrome:
+  hidden: true
+sensor.ecolink_doorwindow_sensor_alarm_level_9:
+  hidden: true
+sensor.ecolink_doorwindow_sensor_alarm_type_9:
+  hidden: true
+sensor.ecolink_doorwindow_sensor_burglar_9:
+  hidden: true
+sensor.ecolink_doorwindow_sensor_sourcenodeid_9:
+  hidden: true
+binary_sensor.ecolink_doorwindow_sensor_sensor_9:
+  hidden: true
+sensor.kwikset_touchpad_electronic_deadbolt_alarm_level_12:
+  hidden: true
+sensor.kwikset_touchpad_electronic_deadbolt_alarm_type_12:
+  hidden: true
+
+
+
+### Switches ###
+
+switch.outdoor_switch_switch_8:
+  friendly_name: Heating Pad
+
+### Lights ###
+
+light.dimmer_module_level_13:
+  friendly_name: Living Room Lamp
+
+### Sensors ###
+
+sensor.batt_back_door:
+  icon: mdi:battery
+
+sensor.back_door:
+  icon: mdi:checkbox-multiple-blank-circle
+
+sensor.forecastio_temperature:
+  friendly_name: Temp
+
+sensor.batt_back_door_lock:
+  icon: mdi:battery
+
+sensor.garage_door_state:
+  icon: mdi:checkbox-multiple-blank-circle
+  friendly_name: Status
+
+
+### Locks ###
+
+lock.kwikset_touchpad_electronic_deadbolt_locked_12:
+  friendly_name: Back Door Lock
+
+### Misc ###
+
+script.reload_ha:
+  icon: mdi:undo
+  friendly_name: "Reload Config"
+
+script.restart_ha:
+  icon: mdi:power
+  friendly_name: "Restart"

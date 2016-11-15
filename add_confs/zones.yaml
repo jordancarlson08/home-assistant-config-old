@@ -1,0 +1,17 @@
+
+##################
+### zones.yaml ###
+##################
+
+- name: Home
+  latitude: 40.2376181
+  longitude: -111.63375
+  # Radius in meters, default 100
+  radius: 100
+  icon: mdi:home
+
+- name: Ancestry
+  latitude: 40.435279
+  longitude: -111.8741619
+  radius: 250
+  icon: mdi:leaf

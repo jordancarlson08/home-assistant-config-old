@@ -1,0 +1,6 @@
+sequence:
+- event: LOGBOOK_ENTRY
+  event_data:
+    name: EVENT
+    message: "Reloading Core Config"
+- service: homeassistant.reload_core_config
