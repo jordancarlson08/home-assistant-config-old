@@ -22,12 +22,12 @@ conversation:
 history:
 logbook:
 sun:
-sensor: !include add_confs/sensors.yaml
-zone: !include add_confs/zones.yaml
-group: !include add_confs/groups.yaml
-automation: !include add_confs/automation.yaml
-script: !include add_confs/scripts.yaml
-shell_command: !include add_confs/shell_commands.yaml
+# sensor: !include add_confs/sensors.yaml
+# zone: !include add_confs/zones.yaml
+# group: !include add_confs/groups.yaml
+# automation: !include add_confs/automation.yaml
+# script: !include add_confs/scripts.yaml
+# shell_command: !include add_confs/shell_commands.yaml
 
 http:
   api_password: !secret http_password
@@ -41,11 +41,11 @@ http:
 #  username: Home Assistant
 #  password: !secret mqtt_password
 
-notify:
-  name: HTML5
-  platform: html5
-  gcm_api_key: !secret gcm_api_key
-  gcm_sender_id: !secret gcm_sender_id
+# notify:
+#   name: HTML5
+#   platform: html5
+#   gcm_api_key: !secret gcm_api_key
+#   gcm_sender_id: !secret gcm_sender_id
 
 #device_tracker:
 #  platform: owntracks
