@@ -31,7 +31,6 @@ sun:
 
 http:
   api_password: !secret http_password
-  server_host: '127.0.0.1'
   ssl_certificate: /etc/letsencrypt/live/home.jordancarlson.me/fullchain.pem
   ssl_key: /etc/letsencrypt/live/home.jordancarlson.me/privkey.pem
 
