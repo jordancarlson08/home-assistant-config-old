@@ -16,19 +16,19 @@ media_player.roku_4e653w004136:
   hidden: true
 media_player.plex_web_chrome:
   hidden: true
-sensor.ecolink_doorwindow_sensor_alarm_level_9:
+sensor.ecolink_doorwindow_sensor_alarm_level_9_1:
   hidden: true
-sensor.ecolink_doorwindow_sensor_alarm_type_9:
+sensor.ecolink_doorwindow_sensor_alarm_type_9_0:
   hidden: true
-sensor.ecolink_doorwindow_sensor_burglar_9:
+sensor.ecolink_doorwindow_sensor_burglar_9_10:
   hidden: true
-sensor.ecolink_doorwindow_sensor_sourcenodeid_9:
+sensor.ecolink_doorwindow_sensor_sourcenodeid_9_2:
   hidden: true
 binary_sensor.ecolink_doorwindow_sensor_sensor_9_0:
   hidden: true
-sensor.kwikset_touchpad_electronic_deadbolt_alarm_level_12:
+sensor.kwikset_door_lock_alarm_level_12_1:
   hidden: true
-sensor.kwikset_touchpad_electronic_deadbolt_alarm_type_12:
+sensor.kwikset_door_lock_alarm_type_12_0:
   hidden: true
 
 
