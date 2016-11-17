@@ -28,13 +28,13 @@ info:
 master_bedroom:
   name: Master Bedroom
   entities:
-    - light.dimmer_module_level_13
-    - switch.outdoor_switch_switch_8
+    - light.dimmer_module_level_13_0
+    - switch.outdoor_switch_switch_8_0
 
 door_back:
   name: Back Door
   entities:
-    - lock.kwikset_touchpad_electronic_deadbolt_locked_12
+    - lock.kwikset_door_lock_locked_12_0
     - sensor.back_door
 
 home_assistant_status:

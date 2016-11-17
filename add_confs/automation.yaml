@@ -7,22 +7,22 @@
 - alias: 'Jenna Night Light ON'
   trigger:
     - platform: state
-      entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_9
+      entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_9_0
       from: 'off'
       to: 'on'
   action:
     service: light.turn_on
-    entity_id: light.dimmer_module_level_13
+    entity_id: light.dimmer_module_level_13_0
 
 - alias: 'Jenna Night Light OFF'
   trigger:
     - platform: state
-      entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_9
+      entity_id: binary_sensor.ecolink_doorwindow_sensor_sensor_9_0
       from: 'on'
       to: 'off'
   action:
     service: light.turn_off
-    entity_id: light.dimmer_module_level_13
+    entity_id: light.dimmer_module_level_13_0
 
 
 ### Heating Pad Schedule ##########################################
@@ -32,7 +32,7 @@
       after: '20:30:00'
   action:
     service: switch.turn_on
-    entity_id: switch.outdoor_switch_switch_8
+    entity_id: switch.outdoor_switch_switch_8_0
 
 - alias: 'Heating Pad OFF'
   trigger:
@@ -40,7 +40,7 @@
       after: '10:30:00'
   action:
     service: switch.turn_off
-    entity_id: switch.outdoor_switch_switch_8
+    entity_id: switch.outdoor_switch_switch_8_0
 
 
 

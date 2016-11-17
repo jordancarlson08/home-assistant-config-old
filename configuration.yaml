@@ -22,8 +22,8 @@ conversation:
 history:
 logbook:
 sun:
-# sensor: !include add_confs/sensors.yaml
-# zone: !include add_confs/zones.yaml
+sensor: !include add_confs/sensors.yaml
+zone: !include add_confs/zones.yaml
 # group: !include add_confs/groups.yaml
 # automation: !include add_confs/automation.yaml
 # script: !include add_confs/scripts.yaml

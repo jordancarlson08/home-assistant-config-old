@@ -24,7 +24,7 @@ sensor.ecolink_doorwindow_sensor_burglar_9:
   hidden: true
 sensor.ecolink_doorwindow_sensor_sourcenodeid_9:
   hidden: true
-binary_sensor.ecolink_doorwindow_sensor_sensor_9:
+binary_sensor.ecolink_doorwindow_sensor_sensor_9_0:
   hidden: true
 sensor.kwikset_touchpad_electronic_deadbolt_alarm_level_12:
   hidden: true
@@ -35,12 +35,12 @@ sensor.kwikset_touchpad_electronic_deadbolt_alarm_type_12:
 
 ### Switches ###
 
-switch.outdoor_switch_switch_8:
+switch.outdoor_switch_switch_8_0:
   friendly_name: Heating Pad
 
 ### Lights ###
 
-light.dimmer_module_level_13:
+light.dimmer_module_level_13_0:
   friendly_name: Living Room Lamp
 
 ### Sensors ###
@@ -64,15 +64,15 @@ sensor.garage_door_state:
 
 ### Locks ###
 
-lock.kwikset_touchpad_electronic_deadbolt_locked_12:
+lock.kwikset_door_lock_locked_12_0:
   friendly_name: Back Door Lock
 
 ### Misc ###
 
-script.reload_ha:
-  icon: mdi:undo
-  friendly_name: "Reload Config"
+# script.reload_ha:
+#   icon: mdi:undo
+#   friendly_name: "Reload Config"
 
-script.restart_ha:
-  icon: mdi:power
-  friendly_name: "Restart"
+# script.restart_ha:
+#   icon: mdi:power
+#   friendly_name: "Restart"
