@@ -4,9 +4,8 @@
 ##################
 
 - name: Home
-  latitude: 40.2376181
-  longitude: -111.63375
-  # Radius in meters, default 100
+  latitude: 40.363608
+  longitude: -111.757784
   radius: 100
   icon: mdi:home
 

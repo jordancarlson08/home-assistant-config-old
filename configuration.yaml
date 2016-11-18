@@ -7,8 +7,8 @@
 
 homeassistant:
   name: Home
-  latitude: 40.2376181
-  longitude: -111.63375
+  latitude: 40.363608
+  longitude: -111.757784
   elevation: 4564
   unit_system: imperial
   time_zone: America/Denver
