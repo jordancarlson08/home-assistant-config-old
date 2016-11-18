@@ -9,7 +9,7 @@ default_view:
   entities:
     - sun.sun
     - device_tracker.jenna_jenna_iphone
-    - device_tracker.jordan_jordan_phone
+    - device_tracker.jordan_pixel
     - sensor.weather_temperature
     - group.master_bedroom
     - group.door_back
