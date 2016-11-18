@@ -13,7 +13,6 @@ default_view:
     - sensor.weather_temperature
     - group.master_bedroom
     - group.door_back
-    - group.all_automations
     # - group.garage_info
 
 info:
@@ -24,6 +23,8 @@ info:
     - sensor.ram_use
     - group.home_assistant_status
     - group.door_info
+    - group.all_automations
+
 
 
 master_bedroom:
