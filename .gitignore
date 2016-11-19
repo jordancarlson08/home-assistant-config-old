@@ -1,2 +1,10 @@
 .HA_VERSION
 .uuid
+OZW_Log.txt
+configuration.yaml.save
+deps/
+home-assistant.log
+home-assistant_v2.db
+plex.conf
+pyozw.sqlite
+zwscene.xml
