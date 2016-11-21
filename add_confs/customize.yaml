@@ -64,7 +64,7 @@ sensor.garage_door_state:
 
 ### Locks ###
 
-lock.kwikset_door_lock_locked_12_0:
+lock.back_door_lock_locked_12_0:
   friendly_name: Back Door Lock
 
 ### Misc ###
