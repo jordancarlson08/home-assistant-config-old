@@ -1,0 +1,556 @@
+2016-11-25 14:39:23.253699 INFO AppDaemon Version 1.3.6 starting
+2016-11-25 14:39:23.254491 DEBUG Entering run()
+2016-11-25 14:39:23.303471 DEBUG Creating worker threads ...
+2016-11-25 14:39:23.306949 DEBUG Done
+2016-11-25 14:39:23.307485 DEBUG Calling HA for initial state
+2016-11-25 14:39:23.307806 DEBUG Refreshing HA state
+2016-11-25 14:39:23.308087 DEBUG get_ha_state: entity is None
+2016-11-25 14:39:28.554168 INFO Got initial state
+2016-11-25 14:39:28.555218 DEBUG Reading Apps
+2016-11-25 14:39:28.557194 INFO Loading Module: /home/hass/.homeassistant/apps/schedule.py
+2016-11-25 14:39:28.562665 INFO Loading Object heating_pad_schedule using class SimpleSchedule from module schedule
+2016-11-25 14:39:28.564970 DEBUG Calling initialize() for heating_pad_schedule
+2016-11-25 14:39:28.565684 INFO Loading Module: /home/hass/.homeassistant/apps/test.py
+2016-11-25 14:39:28.586741 DEBUG Registering run_every starting 2016-11-25 20:30:00 in 86400s intervals for heating_pad_schedule
+2016-11-25 14:39:28.588324 INFO Loading Object test using class TestApp from module test
+2016-11-25 14:39:28.589864 DEBUG Registering run_every starting 2016-11-26 07:30:00 in 86400s intervals for heating_pad_schedule
+2016-11-25 14:39:28.590802 INFO Waiting for App initialization: 2 remaining
+2016-11-25 14:39:28.591309 DEBUG Calling initialize() for test
+2016-11-25 14:39:28.594158 DEBUG test initialize() done
+2016-11-25 14:39:28.592478 DEBUG heating_pad_schedule initialize() done
+2016-11-25 14:39:29.593737 INFO App initialization complete
+2016-11-25 14:39:29.594738 DEBUG Starting timer thread
+2016-11-25 14:39:30.663782 DEBUG Event type:state_changed:
+2016-11-25 14:39:30.664366 DEBUG {'old_state': {'state': '26.4', 'last_updated': '2016-11-25T21:39:00.521592+00:00', 'entity_id': 'sensor.ram_use', 'last_changed': '2016-11-25T21:39:00.521592+00:00', 'attributes': {'unit_of_measurement': '%', 'friendly_name': 'RAM Use', 'icon': 'mdi:memory'}}, 'new_state': {'state': '27.5', 'last_updated': '2016-11-25T21:39:30.549049+00:00', 'entity_id': 'sensor.ram_use', 'last_changed': '2016-11-25T21:39:30.549049+00:00', 'attributes': {'unit_of_measurement': '%', 'friendly_name': 'RAM Use', 'icon': 'mdi:memory'}}, 'entity_id': 'sensor.ram_use'}
+2016-11-25 14:39:30.664815 DEBUG Entity ID:sensor.ram_use:
+2016-11-25 14:39:30.741605 DEBUG Event type:state_changed:
+2016-11-25 14:39:30.742125 DEBUG {'old_state': {'state': 'above_horizon', 'last_updated': '2016-11-25T21:38:30.678325+00:00', 'entity_id': 'sun.sun', 'last_changed': '2016-11-25T14:25:27.510210+00:00', 'attributes': {'elevation': 20.14, 'friendly_name': 'Sun', 'azimuth': 215.82, 'next_setting': '2016-11-26T00:03:10+00:00', 'next_rising': '2016-11-26T14:26:30+00:00'}}, 'new_state': {'state': 'above_horizon', 'last_updated': '2016-11-25T21:39:30.669023+00:00', 'entity_id': 'sun.sun', 'last_changed': '2016-11-25T14:25:27.510210+00:00', 'attributes': {'elevation': 20.03, 'friendly_name': 'Sun', 'azimuth': 216.04, 'next_setting': '2016-11-26T00:03:10+00:00', 'next_rising': '2016-11-26T14:26:30+00:00'}}, 'entity_id': 'sun.sun'}
+2016-11-25 14:39:30.742568 DEBUG Entity ID:sun.sun:
+2016-11-25 14:39:48.702063 WARNING Not connected to Home Assistant, retrying in 5 seconds
+2016-11-25 14:42:23.457788 INFO AppDaemon Version 1.3.6 starting
+2016-11-25 14:42:23.458553 DEBUG Entering run()
+2016-11-25 14:42:23.506670 DEBUG Creating worker threads ...
+2016-11-25 14:42:23.510116 DEBUG Done
+2016-11-25 14:42:23.510644 DEBUG Calling HA for initial state
+2016-11-25 14:42:23.510953 DEBUG Refreshing HA state
+2016-11-25 14:42:23.511228 DEBUG get_ha_state: entity is None
+2016-11-25 14:42:29.402352 INFO AppDaemon Version 1.3.6 starting
+2016-11-25 14:42:29.403114 DEBUG Entering run()
+2016-11-25 14:42:29.451205 DEBUG Creating worker threads ...
+2016-11-25 14:42:29.454710 DEBUG Done
+2016-11-25 14:42:29.455247 DEBUG Calling HA for initial state
+2016-11-25 14:42:29.455559 DEBUG Refreshing HA state
+2016-11-25 14:42:29.455838 DEBUG get_ha_state: entity is None
+2016-11-25 14:42:34.683015 INFO Got initial state
+2016-11-25 14:42:34.683724 DEBUG Reading Apps
+2016-11-25 14:42:34.684835 INFO Loading Module: /home/hass/.homeassistant/apps/schedule.py
+2016-11-25 14:42:34.687878 INFO Loading Object heating_pad_schedule using class SimpleSchedule from module schedule
+2016-11-25 14:42:34.689126 DEBUG Calling initialize() for heating_pad_schedule
+2016-11-25 14:42:34.689543 INFO Loading Module: /home/hass/.homeassistant/apps/test.py
+2016-11-25 14:42:34.700850 DEBUG Registering run_every starting 2016-11-25 20:30:00 in 86400s intervals for heating_pad_schedule
+2016-11-25 14:42:34.701949 INFO Loading Object test using class TestApp from module test
+2016-11-25 14:42:34.702759 DEBUG Registering run_every starting 2016-11-26 07:30:00 in 86400s intervals for heating_pad_schedule
+2016-11-25 14:42:34.703324 INFO Waiting for App initialization: 2 remaining
+2016-11-25 14:42:34.703730 DEBUG Calling initialize() for test
+2016-11-25 14:42:34.705318 DEBUG test initialize() done
+2016-11-25 14:42:34.704440 DEBUG heating_pad_schedule initialize() done
+2016-11-25 14:42:35.705432 INFO App initialization complete
+2016-11-25 14:42:35.706439 DEBUG Starting timer thread
+2016-11-25 14:42:37.516980 DEBUG Event type:state_changed:
+2016-11-25 14:42:37.517532 DEBUG {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'new_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:42:37.447091+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'on', 'last_updated': '2016-11-25T21:42:37.447091+00:00'}, 'old_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:40:56.734337+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'off', 'last_updated': '2016-11-25T21:40:56.734337+00:00'}}
+2016-11-25 14:42:37.517915 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 14:42:37.519435 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 14:42:37.734855 DEBUG Event type:call_service:
+2016-11-25 14:42:37.735493 DEBUG {'service_call_id': '1976768656-12', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'domain': 'homeassistant', 'service': 'turn_on'}
+2016-11-25 14:42:37.769828 DEBUG Event type:call_service:
+2016-11-25 14:42:37.770465 DEBUG {'service_call_id': '1976768656-13', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'domain': 'switch', 'service': 'turn_on'}
+2016-11-25 14:42:37.784102 DEBUG Event type:service_executed:
+2016-11-25 14:42:37.784641 DEBUG {'service_call_id': '1976768656-13'}
+2016-11-25 14:42:37.798595 DEBUG Event type:service_executed:
+2016-11-25 14:42:37.799857 DEBUG {'service_call_id': '1976768656-12'}
+2016-11-25 14:42:40.135821 DEBUG Event type:state_changed:
+2016-11-25 14:42:40.136380 DEBUG {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'new_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:42:40.066914+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.066914+00:00'}, 'old_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:42:37.447091+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'on', 'last_updated': '2016-11-25T21:42:37.447091+00:00'}}
+2016-11-25 14:42:40.136793 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 14:42:40.138335 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 14:42:40.497588 DEBUG Event type:call_service:
+2016-11-25 14:42:40.512727 DEBUG {'service_call_id': '1976768656-14', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'domain': 'homeassistant', 'service': 'turn_off'}
+2016-11-25 14:42:40.537536 DEBUG Event type:call_service:
+2016-11-25 14:42:40.538150 DEBUG {'service_call_id': '1976768656-15', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'domain': 'switch', 'service': 'turn_off'}
+2016-11-25 14:42:40.553051 DEBUG Event type:service_executed:
+2016-11-25 14:42:40.555937 DEBUG {'service_call_id': '1976768656-15'}
+2016-11-25 14:42:40.576038 DEBUG Event type:service_executed:
+2016-11-25 14:42:40.576645 DEBUG {'service_call_id': '1976768656-14'}
+2016-11-25 14:42:40.638755 DEBUG Event type:state_changed:
+2016-11-25 14:42:40.639262 DEBUG {'entity_id': 'switch.outdoor_switch_switch_8_0', 'new_state': {'entity_id': 'switch.outdoor_switch_switch_8_0', 'last_changed': '2016-11-25T21:42:40.556426+00:00', 'attributes': {'friendly_name': 'Heating Pad', 'node_id': 8}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.556426+00:00'}, 'old_state': {'entity_id': 'switch.outdoor_switch_switch_8_0', 'last_changed': '2016-11-25T20:22:53.942942+00:00', 'attributes': {'friendly_name': 'Heating Pad', 'node_id': 8}, 'state': 'on', 'last_updated': '2016-11-25T20:22:53.942942+00:00'}}
+2016-11-25 14:42:40.639637 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 14:42:40.703014 DEBUG Event type:state_changed:
+2016-11-25 14:42:40.777390 DEBUG {'entity_id': 'group.master_bedroom', 'new_state': {'entity_id': 'group.master_bedroom', 'last_changed': '2016-11-25T21:42:40.566550+00:00', 'attributes': {'friendly_name': 'Master Bedroom', 'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.566550+00:00'}, 'old_state': {'entity_id': 'group.master_bedroom', 'last_changed': '2016-11-25T20:22:53.945630+00:00', 'attributes': {'friendly_name': 'Master Bedroom', 'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4}, 'state': 'on', 'last_updated': '2016-11-25T20:22:53.945630+00:00'}}
+2016-11-25 14:42:40.777979 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 14:42:40.849174 DEBUG Event type:state_changed:
+2016-11-25 14:42:40.849770 DEBUG {'entity_id': 'group.all_switches', 'new_state': {'entity_id': 'group.all_switches', 'last_changed': '2016-11-25T21:42:40.569202+00:00', 'attributes': {'friendly_name': 'all switches', 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'hidden': True, 'order': 10, 'auto': True}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.569202+00:00'}, 'old_state': {'entity_id': 'group.all_switches', 'last_changed': '2016-11-25T20:22:53.950610+00:00', 'attributes': {'friendly_name': 'all switches', 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'hidden': True, 'order': 10, 'auto': True}, 'state': 'on', 'last_updated': '2016-11-25T20:22:53.950610+00:00'}}
+2016-11-25 14:42:40.850356 DEBUG Entity ID:group.all_switches:
+2016-11-25 14:42:42.437086 DEBUG Event type:state_changed:
+2016-11-25 14:42:42.437626 DEBUG {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'new_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:42:42.362655+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.362655+00:00'}, 'old_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:42:40.066914+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.066914+00:00'}}
+2016-11-25 14:42:42.438020 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 14:42:42.439550 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 14:42:42.654560 DEBUG Event type:call_service:
+2016-11-25 14:42:42.658309 DEBUG {'service_call_id': '1976768656-16', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'domain': 'homeassistant', 'service': 'turn_on'}
+2016-11-25 14:42:42.691380 DEBUG Event type:call_service:
+2016-11-25 14:42:42.694076 DEBUG {'service_call_id': '1976768656-17', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'domain': 'switch', 'service': 'turn_on'}
+2016-11-25 14:42:42.708577 DEBUG Event type:service_executed:
+2016-11-25 14:42:42.709292 DEBUG {'service_call_id': '1976768656-17'}
+2016-11-25 14:42:42.729009 DEBUG Event type:service_executed:
+2016-11-25 14:42:42.729582 DEBUG {'service_call_id': '1976768656-16'}
+2016-11-25 14:42:42.791720 DEBUG Event type:state_changed:
+2016-11-25 14:42:42.792321 DEBUG {'entity_id': 'switch.outdoor_switch_switch_8_0', 'new_state': {'entity_id': 'switch.outdoor_switch_switch_8_0', 'last_changed': '2016-11-25T21:42:42.712772+00:00', 'attributes': {'friendly_name': 'Heating Pad', 'node_id': 8}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.712772+00:00'}, 'old_state': {'entity_id': 'switch.outdoor_switch_switch_8_0', 'last_changed': '2016-11-25T21:42:40.556426+00:00', 'attributes': {'friendly_name': 'Heating Pad', 'node_id': 8}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.556426+00:00'}}
+2016-11-25 14:42:42.792859 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 14:42:42.860013 DEBUG Event type:state_changed:
+2016-11-25 14:42:42.860676 DEBUG {'entity_id': 'group.master_bedroom', 'new_state': {'entity_id': 'group.master_bedroom', 'last_changed': '2016-11-25T21:42:42.721343+00:00', 'attributes': {'friendly_name': 'Master Bedroom', 'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.721343+00:00'}, 'old_state': {'entity_id': 'group.master_bedroom', 'last_changed': '2016-11-25T21:42:40.566550+00:00', 'attributes': {'friendly_name': 'Master Bedroom', 'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.566550+00:00'}}
+2016-11-25 14:42:42.861238 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 14:42:42.927355 DEBUG Event type:state_changed:
+2016-11-25 14:42:42.927934 DEBUG {'entity_id': 'group.all_switches', 'new_state': {'entity_id': 'group.all_switches', 'last_changed': '2016-11-25T21:42:42.723647+00:00', 'attributes': {'friendly_name': 'all switches', 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'hidden': True, 'order': 10, 'auto': True}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.723647+00:00'}, 'old_state': {'entity_id': 'group.all_switches', 'last_changed': '2016-11-25T21:42:40.569202+00:00', 'attributes': {'friendly_name': 'all switches', 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'hidden': True, 'order': 10, 'auto': True}, 'state': 'off', 'last_updated': '2016-11-25T21:42:40.569202+00:00'}}
+2016-11-25 14:42:42.928368 DEBUG Entity ID:group.all_switches:
+2016-11-25 14:42:44.082971 DEBUG Event type:state_changed:
+2016-11-25 14:42:44.083510 DEBUG {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'new_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:42:44.008920+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'off', 'last_updated': '2016-11-25T21:42:44.008920+00:00'}, 'old_state': {'entity_id': 'binary_sensor.door_sensor_sensor_9_0', 'last_changed': '2016-11-25T21:42:42.362655+00:00', 'attributes': {'friendly_name': 'Door Sensor Sensor', 'battery_level': 100, 'node_id': 9}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.362655+00:00'}}
+2016-11-25 14:42:44.083982 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 14:42:44.085532 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 14:42:44.288069 DEBUG Event type:call_service:
+2016-11-25 14:42:44.289594 DEBUG {'service_call_id': '1976768656-18', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'domain': 'homeassistant', 'service': 'turn_off'}
+2016-11-25 14:42:44.311317 DEBUG Event type:call_service:
+2016-11-25 14:42:44.311898 DEBUG {'service_call_id': '1976768656-19', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'domain': 'switch', 'service': 'turn_off'}
+2016-11-25 14:42:44.325412 DEBUG Event type:service_executed:
+2016-11-25 14:42:44.326080 DEBUG {'service_call_id': '1976768656-19'}
+2016-11-25 14:42:44.340257 DEBUG Event type:service_executed:
+2016-11-25 14:42:44.340854 DEBUG {'service_call_id': '1976768656-18'}
+2016-11-25 14:42:44.400661 DEBUG Event type:state_changed:
+2016-11-25 14:42:44.401195 DEBUG {'entity_id': 'switch.outdoor_switch_switch_8_0', 'new_state': {'entity_id': 'switch.outdoor_switch_switch_8_0', 'last_changed': '2016-11-25T21:42:44.323452+00:00', 'attributes': {'friendly_name': 'Heating Pad', 'node_id': 8}, 'state': 'off', 'last_updated': '2016-11-25T21:42:44.323452+00:00'}, 'old_state': {'entity_id': 'switch.outdoor_switch_switch_8_0', 'last_changed': '2016-11-25T21:42:42.712772+00:00', 'attributes': {'friendly_name': 'Heating Pad', 'node_id': 8}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.712772+00:00'}}
+2016-11-25 14:42:44.401727 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 14:42:44.464318 DEBUG Event type:state_changed:
+2016-11-25 14:42:44.464844 DEBUG {'entity_id': 'group.master_bedroom', 'new_state': {'entity_id': 'group.master_bedroom', 'last_changed': '2016-11-25T21:42:44.332518+00:00', 'attributes': {'friendly_name': 'Master Bedroom', 'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4}, 'state': 'off', 'last_updated': '2016-11-25T21:42:44.332518+00:00'}, 'old_state': {'entity_id': 'group.master_bedroom', 'last_changed': '2016-11-25T21:42:42.721343+00:00', 'attributes': {'friendly_name': 'Master Bedroom', 'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.721343+00:00'}}
+2016-11-25 14:42:44.465302 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 14:42:44.526219 DEBUG Event type:state_changed:
+2016-11-25 14:42:44.526735 DEBUG {'entity_id': 'group.all_switches', 'new_state': {'entity_id': 'group.all_switches', 'last_changed': '2016-11-25T21:42:44.334842+00:00', 'attributes': {'friendly_name': 'all switches', 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'hidden': True, 'order': 10, 'auto': True}, 'state': 'off', 'last_updated': '2016-11-25T21:42:44.334842+00:00'}, 'old_state': {'entity_id': 'group.all_switches', 'last_changed': '2016-11-25T21:42:42.723647+00:00', 'attributes': {'friendly_name': 'all switches', 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'hidden': True, 'order': 10, 'auto': True}, 'state': 'on', 'last_updated': '2016-11-25T21:42:42.723647+00:00'}}
+2016-11-25 14:42:44.527132 DEBUG Entity ID:group.all_switches:
+2016-11-25 14:45:32.784399 INFO AppDaemon Version 1.3.6 starting
+2016-11-25 14:45:38.875458 INFO Got initial state
+2016-11-25 14:45:38.877005 INFO Loading Module: /home/hass/.homeassistant/apps/schedule.py
+2016-11-25 14:45:38.880254 INFO Loading Object heating_pad_schedule using class SimpleSchedule from module schedule
+2016-11-25 14:45:38.882212 INFO Loading Module: /home/hass/.homeassistant/apps/test.py
+2016-11-25 14:45:38.894665 INFO Loading Object test using class TestApp from module test
+2016-11-25 14:45:38.895488 INFO Waiting for App initialization: 1 remaining
+2016-11-25 14:45:39.897350 INFO App initialization complete
+2016-11-25 14:56:36.419715 INFO AppDaemon Version 1.3.6 starting
+2016-11-25 14:56:42.544059 INFO Got initial state
+2016-11-25 14:56:42.546755 INFO Loading Module: /home/hass/.homeassistant/apps/schedule.py
+2016-11-25 14:56:42.556120 INFO Loading Object heating_pad_schedule using class SimpleSchedule from module schedule
+2016-11-25 14:56:42.559904 INFO Loading Module: /home/hass/.homeassistant/apps/test.py
+2016-11-25 14:56:42.585611 INFO Loading Object test using class TestApp from module test
+2016-11-25 14:56:42.587595 INFO Waiting for App initialization: 1 remaining
+2016-11-25 14:56:43.590440 INFO App initialization complete
+2016-11-25 15:02:32.942893 INFO AppDaemon Version 1.3.6 starting
+2016-11-25 15:02:39.027833 INFO Got initial state
+2016-11-25 15:02:39.030505 INFO Loading Module: /home/hass/.homeassistant/apps/schedule.py
+2016-11-25 15:02:39.036193 INFO Loading Object heating_pad_schedule using class SimpleSchedule from module schedule
+2016-11-25 15:02:39.039786 INFO Loading Module: /home/hass/.homeassistant/apps/test.py
+2016-11-25 15:02:39.063561 INFO Loading Object test using class TestApp from module test
+2016-11-25 15:02:39.064951 INFO Waiting for App initialization: 1 remaining
+2016-11-25 15:02:40.067681 INFO App initialization complete
+2016-11-25 15:04:15.924343 INFO AppDaemon Version 1.3.6 starting
+2016-11-25 15:04:15.925120 DEBUG Entering run()
+2016-11-25 15:04:15.973616 DEBUG Creating worker threads ...
+2016-11-25 15:04:15.977040 DEBUG Done
+2016-11-25 15:04:15.977636 DEBUG Calling HA for initial state
+2016-11-25 15:04:15.977969 DEBUG Refreshing HA state
+2016-11-25 15:04:15.978253 DEBUG get_ha_state: entity is None
+2016-11-25 15:04:21.204526 INFO Got initial state
+2016-11-25 15:04:21.205190 DEBUG Reading Apps
+2016-11-25 15:04:21.206251 INFO Loading Module: /home/hass/.homeassistant/apps/schedule.py
+2016-11-25 15:04:21.209368 INFO Loading Object heating_pad_schedule using class SimpleSchedule from module schedule
+2016-11-25 15:04:21.210584 DEBUG Calling initialize() for heating_pad_schedule
+2016-11-25 15:04:21.211059 INFO Loading Module: /home/hass/.homeassistant/apps/test.py
+2016-11-25 15:04:21.220962 DEBUG Registering run_every starting 2016-11-25 20:30:00 in 86400s intervals for heating_pad_schedule
+2016-11-25 15:04:21.223037 DEBUG Registering run_every starting 2016-11-26 07:30:00 in 86400s intervals for heating_pad_schedule
+2016-11-25 15:04:21.224023 INFO Loading Object test using class TestApp from module test
+2016-11-25 15:04:21.224619 DEBUG heating_pad_schedule initialize() done
+2016-11-25 15:04:21.225132 INFO Waiting for App initialization: 2 remaining
+2016-11-25 15:04:21.225411 DEBUG Calling initialize() for test
+2016-11-25 15:04:21.226529 DEBUG test initialize() done
+2016-11-25 15:04:22.227052 INFO App initialization complete
+2016-11-25 15:04:22.228141 DEBUG Starting timer thread
+2016-11-25 15:04:30.653201 DEBUG Event type:state_changed:
+2016-11-25 15:04:30.653861 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:00.512289+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '22.4', 'last_updated': '2016-11-25T22:04:00.512289+00:00', 'entity_id': 'sensor.ram_use'}, 'new_state': {'last_changed': '2016-11-25T22:04:30.555824+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '23.6', 'last_updated': '2016-11-25T22:04:30.555824+00:00', 'entity_id': 'sensor.ram_use'}, 'entity_id': 'sensor.ram_use'}
+2016-11-25 15:04:30.654445 DEBUG Entity ID:sensor.ram_use:
+2016-11-25 15:04:30.720864 DEBUG Event type:state_changed:
+2016-11-25 15:04:30.721471 DEBUG {'old_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 17.18, 'azimuth': 221.13, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:03:30.728666+00:00', 'entity_id': 'sun.sun'}, 'new_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 17.06, 'azimuth': 221.33, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:04:30.626533+00:00', 'entity_id': 'sun.sun'}, 'entity_id': 'sun.sun'}
+2016-11-25 15:04:30.722122 DEBUG Entity ID:sun.sun:
+2016-11-25 15:04:33.016080 DEBUG Event type:state_changed:
+2016-11-25 15:04:33.016755 DEBUG {'old_state': {'last_changed': '2016-11-25T22:03:07.159678+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:03:07.159678+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:04:32.953056+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:32.953056+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:04:33.017556 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:04:33.019524 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:04:33.234279 DEBUG Event type:call_service:
+2016-11-25 15:04:33.235849 DEBUG {'service_call_id': '1976338576-19', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_on'}
+2016-11-25 15:04:33.258600 DEBUG Event type:call_service:
+2016-11-25 15:04:33.260010 DEBUG {'service_call_id': '1976338576-20', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_on'}
+2016-11-25 15:04:33.274824 DEBUG Event type:service_executed:
+2016-11-25 15:04:33.275508 DEBUG {'service_call_id': '1976338576-20'}
+2016-11-25 15:04:33.291218 DEBUG Event type:service_executed:
+2016-11-25 15:04:33.292008 DEBUG {'service_call_id': '1976338576-19'}
+2016-11-25 15:04:33.350040 DEBUG Event type:state_changed:
+2016-11-25 15:04:33.350979 DEBUG {'old_state': {'last_changed': '2016-11-25T22:03:07.517113+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:03:07.517113+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:04:33.279809+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:33.279809+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:04:33.352956 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:04:33.420864 DEBUG Event type:state_changed:
+2016-11-25 15:04:33.422853 DEBUG {'old_state': {'last_changed': '2016-11-25T22:03:07.523140+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:03:07.523140+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:04:33.285895+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:33.285895+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:04:33.424193 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:04:33.489852 DEBUG Event type:state_changed:
+2016-11-25 15:04:33.491303 DEBUG {'old_state': {'last_changed': '2016-11-25T22:03:07.525183+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:03:07.525183+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:04:33.288041+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:33.288041+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:04:33.492326 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:04:34.660026 DEBUG Event type:state_changed:
+2016-11-25 15:04:34.660679 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:32.953056+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:32.953056+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:04:34.598728+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.598728+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:04:34.661263 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:04:34.663035 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:04:34.882533 DEBUG Event type:call_service:
+2016-11-25 15:04:34.884078 DEBUG {'service_call_id': '1976338576-21', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_off'}
+2016-11-25 15:04:34.906644 DEBUG Event type:call_service:
+2016-11-25 15:04:34.907231 DEBUG {'service_call_id': '1976338576-22', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_off'}
+2016-11-25 15:04:34.921169 DEBUG Event type:service_executed:
+2016-11-25 15:04:34.921811 DEBUG {'service_call_id': '1976338576-22'}
+2016-11-25 15:04:34.935816 DEBUG Event type:service_executed:
+2016-11-25 15:04:34.936565 DEBUG {'service_call_id': '1976338576-21'}
+2016-11-25 15:04:34.996364 DEBUG Event type:state_changed:
+2016-11-25 15:04:34.996982 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:33.279809+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:33.279809+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:04:34.928985+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.928985+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:04:34.997607 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:04:35.065566 DEBUG Event type:state_changed:
+2016-11-25 15:04:35.066195 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:33.285895+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:33.285895+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:04:34.934949+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.934949+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:04:35.066997 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:04:35.130876 DEBUG Event type:state_changed:
+2016-11-25 15:04:35.131484 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:33.288041+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:04:33.288041+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:04:34.937182+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.937182+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:04:35.132078 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:05:00.624153 DEBUG Event type:state_changed:
+2016-11-25 15:05:00.624797 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:30.555824+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '23.6', 'last_updated': '2016-11-25T22:04:30.555824+00:00', 'entity_id': 'sensor.ram_use'}, 'new_state': {'last_changed': '2016-11-25T22:05:00.521111+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '24.1', 'last_updated': '2016-11-25T22:05:00.521111+00:00', 'entity_id': 'sensor.ram_use'}, 'entity_id': 'sensor.ram_use'}
+2016-11-25 15:05:00.625386 DEBUG Entity ID:sensor.ram_use:
+2016-11-25 15:05:30.676267 DEBUG Event type:state_changed:
+2016-11-25 15:05:30.676998 DEBUG {'old_state': {'last_changed': '2016-11-25T22:05:00.521111+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '24.1', 'last_updated': '2016-11-25T22:05:00.521111+00:00', 'entity_id': 'sensor.ram_use'}, 'new_state': {'last_changed': '2016-11-25T22:05:30.589065+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '24.3', 'last_updated': '2016-11-25T22:05:30.589065+00:00', 'entity_id': 'sensor.ram_use'}, 'entity_id': 'sensor.ram_use'}
+2016-11-25 15:05:30.677940 DEBUG Entity ID:sensor.ram_use:
+2016-11-25 15:05:30.746294 DEBUG Event type:state_changed:
+2016-11-25 15:05:30.746921 DEBUG {'old_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 17.06, 'azimuth': 221.33, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:04:30.626533+00:00', 'entity_id': 'sun.sun'}, 'new_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 16.93, 'azimuth': 221.54, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:05:30.672812+00:00', 'entity_id': 'sun.sun'}, 'entity_id': 'sun.sun'}
+2016-11-25 15:05:30.747611 DEBUG Entity ID:sun.sun:
+2016-11-25 15:06:16.003640 INFO /home/hass/.homeassistant/appdaemon.cfg modified
+2016-11-25 15:06:16.009147 INFO App 'test2' added - running
+2016-11-25 15:06:16.009931 INFO Loading Object test2 using class TestApp from module test
+2016-11-25 15:06:16.011227 DEBUG Calling initialize() for test2
+2016-11-25 15:06:16.012264 DEBUG test2 initialize() done
+2016-11-25 15:06:20.980805 DEBUG Event type:state_changed:
+2016-11-25 15:06:20.981723 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:34.598728+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.598728+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:20.859128+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:20.859128+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:06:20.982937 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:06:20.987028 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:20.988693 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:21.273375 DEBUG Event type:call_service:
+2016-11-25 15:06:21.274801 DEBUG {'service_call_id': '1976338576-23', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_on'}
+2016-11-25 15:06:21.298877 DEBUG Event type:call_service:
+2016-11-25 15:06:21.299476 DEBUG {'service_call_id': '1976338576-24', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_on'}
+2016-11-25 15:06:21.322155 DEBUG Event type:call_service:
+2016-11-25 15:06:21.322747 DEBUG {'service_call_id': '1976338576-25', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_on'}
+2016-11-25 15:06:21.345213 DEBUG Event type:call_service:
+2016-11-25 15:06:21.345811 DEBUG {'service_call_id': '1976338576-26', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_on'}
+2016-11-25 15:06:21.359472 DEBUG Event type:service_executed:
+2016-11-25 15:06:21.360051 DEBUG {'service_call_id': '1976338576-24'}
+2016-11-25 15:06:21.384356 DEBUG Event type:service_executed:
+2016-11-25 15:06:21.385002 DEBUG {'service_call_id': '1976338576-26'}
+2016-11-25 15:06:21.400747 DEBUG Event type:service_executed:
+2016-11-25 15:06:21.401386 DEBUG {'service_call_id': '1976338576-23'}
+2016-11-25 15:06:21.415834 DEBUG Event type:service_executed:
+2016-11-25 15:06:21.416510 DEBUG {'service_call_id': '1976338576-25'}
+2016-11-25 15:06:21.472057 DEBUG Event type:state_changed:
+2016-11-25 15:06:21.472691 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:34.928985+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.928985+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:21.363834+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:21.363834+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:21.473308 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:06:21.540332 DEBUG Event type:state_changed:
+2016-11-25 15:06:21.540978 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:34.934949+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.934949+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:06:21.369037+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:21.369037+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:06:21.541643 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:06:21.607299 DEBUG Event type:state_changed:
+2016-11-25 15:06:21.607945 DEBUG {'old_state': {'last_changed': '2016-11-25T22:04:34.937182+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:04:34.937182+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:06:21.371434+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:21.371434+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:06:21.608577 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:06:24.231789 DEBUG Event type:state_changed:
+2016-11-25 15:06:24.237334 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:20.859128+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:20.859128+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:24.129423+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.129423+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:06:24.238105 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:06:24.240609 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:24.241349 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:24.474182 DEBUG Event type:call_service:
+2016-11-25 15:06:24.474897 DEBUG {'service_call_id': '1976338576-27', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_off'}
+2016-11-25 15:06:24.523592 DEBUG Event type:call_service:
+2016-11-25 15:06:24.524247 DEBUG {'service_call_id': '1976338576-28', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_off'}
+2016-11-25 15:06:24.539948 DEBUG Event type:service_executed:
+2016-11-25 15:06:24.542095 DEBUG {'service_call_id': '1976338576-28'}
+2016-11-25 15:06:24.566783 DEBUG Event type:call_service:
+2016-11-25 15:06:24.567630 DEBUG {'service_call_id': '1976338576-29', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_off'}
+2016-11-25 15:06:24.590695 DEBUG Event type:call_service:
+2016-11-25 15:06:24.591507 DEBUG {'service_call_id': '1976338576-30', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_off'}
+2016-11-25 15:06:24.613812 DEBUG Event type:service_executed:
+2016-11-25 15:06:24.614348 DEBUG {'service_call_id': '1976338576-27'}
+2016-11-25 15:06:24.632224 DEBUG Event type:service_executed:
+2016-11-25 15:06:24.632860 DEBUG {'service_call_id': '1976338576-30'}
+2016-11-25 15:06:24.646615 DEBUG Event type:service_executed:
+2016-11-25 15:06:24.647204 DEBUG {'service_call_id': '1976338576-29'}
+2016-11-25 15:06:24.701329 DEBUG Event type:state_changed:
+2016-11-25 15:06:24.701928 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:21.363834+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:21.363834+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:24.526174+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.526174+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:24.702491 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:06:24.767623 DEBUG Event type:state_changed:
+2016-11-25 15:06:24.768231 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:21.369037+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:21.369037+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:06:24.533848+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.533848+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:06:24.768813 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:06:24.832514 DEBUG Event type:state_changed:
+2016-11-25 15:06:24.833120 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:21.371434+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:21.371434+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:06:24.537611+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.537611+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:06:24.833702 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:06:24.895070 DEBUG Event type:state_changed:
+2016-11-25 15:06:24.895672 DEBUG {'old_state': {'last_changed': '2016-11-25T21:47:44.220436+00:00', 'attributes': {'brightness': 255.0, 'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'on', 'last_updated': '2016-11-25T21:47:44.220436+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:24.608295+00:00', 'attributes': {'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.608295+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:24.896259 DEBUG Entity ID:light.kitchen_dimmer_level_14_0:
+2016-11-25 15:06:24.953157 DEBUG Event type:state_changed:
+2016-11-25 15:06:24.953772 DEBUG {'old_state': {'last_changed': '2016-11-25T21:47:44.227279+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'on', 'last_updated': '2016-11-25T21:47:44.227279+00:00', 'entity_id': 'group.kitchen'}, 'new_state': {'last_changed': '2016-11-25T22:06:24.616224+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.616224+00:00', 'entity_id': 'group.kitchen'}, 'entity_id': 'group.kitchen'}
+2016-11-25 15:06:24.954389 DEBUG Entity ID:group.kitchen:
+2016-11-25 15:06:25.024783 DEBUG Event type:state_changed:
+2016-11-25 15:06:25.025408 DEBUG {'old_state': {'last_changed': '2016-11-25T21:47:44.232599+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'on', 'last_updated': '2016-11-25T21:47:44.232599+00:00', 'entity_id': 'group.all_lights'}, 'new_state': {'last_changed': '2016-11-25T22:06:24.618366+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.618366+00:00', 'entity_id': 'group.all_lights'}, 'entity_id': 'group.all_lights'}
+2016-11-25 15:06:25.026212 DEBUG Entity ID:group.all_lights:
+2016-11-25 15:06:29.791377 DEBUG Event type:state_changed:
+2016-11-25 15:06:29.792016 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:24.129423+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.129423+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:29.680419+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:29.680419+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:06:29.792602 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:06:29.794960 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:29.795896 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:30.018552 DEBUG Event type:call_service:
+2016-11-25 15:06:30.019312 DEBUG {'service_call_id': '1976338576-31', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_on'}
+2016-11-25 15:06:30.054053 DEBUG Event type:call_service:
+2016-11-25 15:06:30.058728 DEBUG {'service_call_id': '1976338576-32', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_on'}
+2016-11-25 15:06:30.092019 DEBUG Event type:call_service:
+2016-11-25 15:06:30.092973 DEBUG {'service_call_id': '1976338576-33', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_on'}
+2016-11-25 15:06:30.107292 DEBUG Event type:service_executed:
+2016-11-25 15:06:30.107891 DEBUG {'service_call_id': '1976338576-32'}
+2016-11-25 15:06:30.130071 DEBUG Event type:call_service:
+2016-11-25 15:06:30.130674 DEBUG {'service_call_id': '1976338576-34', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_on'}
+2016-11-25 15:06:30.144667 DEBUG Event type:service_executed:
+2016-11-25 15:06:30.145405 DEBUG {'service_call_id': '1976338576-34'}
+2016-11-25 15:06:30.160344 DEBUG Event type:service_executed:
+2016-11-25 15:06:30.161070 DEBUG {'service_call_id': '1976338576-31'}
+2016-11-25 15:06:30.175314 DEBUG Event type:service_executed:
+2016-11-25 15:06:30.175931 DEBUG {'service_call_id': '1976338576-33'}
+2016-11-25 15:06:30.230058 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.230674 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:24.526174+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.526174+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:30.073896+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.073896+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:30.231296 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:06:30.296271 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.296884 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:24.533848+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.533848+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:06:30.080231+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.080231+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:06:30.297525 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:06:30.360982 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.361585 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:24.537611+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.537611+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:06:30.082308+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.082308+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:06:30.362169 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:06:30.423427 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.424037 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:24.608295+00:00', 'attributes': {'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.608295+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:30.144750+00:00', 'attributes': {'brightness': 255.0, 'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.144750+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:30.424632 DEBUG Entity ID:light.kitchen_dimmer_level_14_0:
+2016-11-25 15:06:30.481182 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.481792 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:24.616224+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.616224+00:00', 'entity_id': 'group.kitchen'}, 'new_state': {'last_changed': '2016-11-25T22:06:30.150814+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.150814+00:00', 'entity_id': 'group.kitchen'}, 'entity_id': 'group.kitchen'}
+2016-11-25 15:06:30.482364 DEBUG Entity ID:group.kitchen:
+2016-11-25 15:06:30.551222 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.551890 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:24.618366+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:24.618366+00:00', 'entity_id': 'group.all_lights'}, 'new_state': {'last_changed': '2016-11-25T22:06:30.152860+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.152860+00:00', 'entity_id': 'group.all_lights'}, 'entity_id': 'group.all_lights'}
+2016-11-25 15:06:30.552667 DEBUG Entity ID:group.all_lights:
+2016-11-25 15:06:30.668407 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.669028 DEBUG {'old_state': {'last_changed': '2016-11-25T22:05:30.589065+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '24.3', 'last_updated': '2016-11-25T22:05:30.589065+00:00', 'entity_id': 'sensor.ram_use'}, 'new_state': {'last_changed': '2016-11-25T22:06:30.566508+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '24.6', 'last_updated': '2016-11-25T22:06:30.566508+00:00', 'entity_id': 'sensor.ram_use'}, 'entity_id': 'sensor.ram_use'}
+2016-11-25 15:06:30.669609 DEBUG Entity ID:sensor.ram_use:
+2016-11-25 15:06:30.736229 DEBUG Event type:state_changed:
+2016-11-25 15:06:30.736841 DEBUG {'old_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 16.93, 'azimuth': 221.54, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:05:30.672812+00:00', 'entity_id': 'sun.sun'}, 'new_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 16.81, 'azimuth': 221.74, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:06:30.617830+00:00', 'entity_id': 'sun.sun'}, 'entity_id': 'sun.sun'}
+2016-11-25 15:06:30.737506 DEBUG Entity ID:sun.sun:
+2016-11-25 15:06:33.038947 DEBUG Event type:state_changed:
+2016-11-25 15:06:33.039962 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:29.680419+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:29.680419+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:32.944251+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:32.944251+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:06:33.040849 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:06:33.043418 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:33.044026 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:33.277024 DEBUG Event type:call_service:
+2016-11-25 15:06:33.282131 DEBUG {'service_call_id': '1976338576-35', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_off'}
+2016-11-25 15:06:33.330836 DEBUG Event type:call_service:
+2016-11-25 15:06:33.336711 DEBUG {'service_call_id': '1976338576-36', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_off'}
+2016-11-25 15:06:33.352127 DEBUG Event type:service_executed:
+2016-11-25 15:06:33.352766 DEBUG {'service_call_id': '1976338576-36'}
+2016-11-25 15:06:33.366584 DEBUG Event type:service_executed:
+2016-11-25 15:06:33.367173 DEBUG {'service_call_id': '1976338576-35'}
+2016-11-25 15:06:33.390121 DEBUG Event type:call_service:
+2016-11-25 15:06:33.390722 DEBUG {'service_call_id': '1976338576-37', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_off'}
+2016-11-25 15:06:33.413709 DEBUG Event type:call_service:
+2016-11-25 15:06:33.414446 DEBUG {'service_call_id': '1976338576-38', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_off'}
+2016-11-25 15:06:33.429678 DEBUG Event type:service_executed:
+2016-11-25 15:06:33.430297 DEBUG {'service_call_id': '1976338576-38'}
+2016-11-25 15:06:33.444063 DEBUG Event type:service_executed:
+2016-11-25 15:06:33.444658 DEBUG {'service_call_id': '1976338576-37'}
+2016-11-25 15:06:33.498735 DEBUG Event type:state_changed:
+2016-11-25 15:06:33.499344 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:30.073896+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.073896+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:33.332403+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.332403+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:33.499936 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:06:33.565139 DEBUG Event type:state_changed:
+2016-11-25 15:06:33.565767 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:30.080231+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.080231+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:06:33.337522+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.337522+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:06:33.566361 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:06:33.630102 DEBUG Event type:state_changed:
+2016-11-25 15:06:33.630718 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:30.082308+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.082308+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:06:33.342204+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.342204+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:06:33.631309 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:06:33.692520 DEBUG Event type:state_changed:
+2016-11-25 15:06:33.693130 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:30.144750+00:00', 'attributes': {'brightness': 255.0, 'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.144750+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:33.406557+00:00', 'attributes': {'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.406557+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:33.693755 DEBUG Entity ID:light.kitchen_dimmer_level_14_0:
+2016-11-25 15:06:33.750312 DEBUG Event type:state_changed:
+2016-11-25 15:06:33.750932 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:30.150814+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.150814+00:00', 'entity_id': 'group.kitchen'}, 'new_state': {'last_changed': '2016-11-25T22:06:33.412466+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.412466+00:00', 'entity_id': 'group.kitchen'}, 'entity_id': 'group.kitchen'}
+2016-11-25 15:06:33.751563 DEBUG Entity ID:group.kitchen:
+2016-11-25 15:06:33.819652 DEBUG Event type:state_changed:
+2016-11-25 15:06:33.820264 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:30.152860+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:30.152860+00:00', 'entity_id': 'group.all_lights'}, 'new_state': {'last_changed': '2016-11-25T22:06:33.414672+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.414672+00:00', 'entity_id': 'group.all_lights'}, 'entity_id': 'group.all_lights'}
+2016-11-25 15:06:33.820870 DEBUG Entity ID:group.all_lights:
+2016-11-25 15:06:36.987007 DEBUG Event type:state_changed:
+2016-11-25 15:06:36.988083 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:32.944251+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:32.944251+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:36.864128+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:36.864128+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:06:36.989126 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:06:36.993466 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:36.994650 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:37.205503 DEBUG Event type:call_service:
+2016-11-25 15:06:37.206200 DEBUG {'service_call_id': '1976338576-39', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_on'}
+2016-11-25 15:06:37.250358 DEBUG Event type:call_service:
+2016-11-25 15:06:37.259154 DEBUG {'service_call_id': '1976338576-40', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_on'}
+2016-11-25 15:06:37.275491 DEBUG Event type:service_executed:
+2016-11-25 15:06:37.276437 DEBUG {'service_call_id': '1976338576-40'}
+2016-11-25 15:06:37.301207 DEBUG Event type:call_service:
+2016-11-25 15:06:37.301732 DEBUG {'service_call_id': '1976338576-41', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_on'}
+2016-11-25 15:06:37.324702 DEBUG Event type:call_service:
+2016-11-25 15:06:37.325210 DEBUG {'service_call_id': '1976338576-42', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_on'}
+2016-11-25 15:06:37.339306 DEBUG Event type:service_executed:
+2016-11-25 15:06:37.339805 DEBUG {'service_call_id': '1976338576-39'}
+2016-11-25 15:06:37.353850 DEBUG Event type:service_executed:
+2016-11-25 15:06:37.354509 DEBUG {'service_call_id': '1976338576-42'}
+2016-11-25 15:06:37.369114 DEBUG Event type:service_executed:
+2016-11-25 15:06:37.369771 DEBUG {'service_call_id': '1976338576-41'}
+2016-11-25 15:06:37.431704 DEBUG Event type:state_changed:
+2016-11-25 15:06:37.432227 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:33.406557+00:00', 'attributes': {'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.406557+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:37.273804+00:00', 'attributes': {'brightness': 255.0, 'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.273804+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:37.432851 DEBUG Entity ID:light.kitchen_dimmer_level_14_0:
+2016-11-25 15:06:37.489579 DEBUG Event type:state_changed:
+2016-11-25 15:06:37.490115 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:33.412466+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.412466+00:00', 'entity_id': 'group.kitchen'}, 'new_state': {'last_changed': '2016-11-25T22:06:37.279987+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.279987+00:00', 'entity_id': 'group.kitchen'}, 'entity_id': 'group.kitchen'}
+2016-11-25 15:06:37.490691 DEBUG Entity ID:group.kitchen:
+2016-11-25 15:06:37.558835 DEBUG Event type:state_changed:
+2016-11-25 15:06:37.559366 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:33.414672+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.414672+00:00', 'entity_id': 'group.all_lights'}, 'new_state': {'last_changed': '2016-11-25T22:06:37.282170+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.282170+00:00', 'entity_id': 'group.all_lights'}, 'entity_id': 'group.all_lights'}
+2016-11-25 15:06:37.559970 DEBUG Entity ID:group.all_lights:
+2016-11-25 15:06:37.613933 DEBUG Event type:state_changed:
+2016-11-25 15:06:37.614452 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:33.332403+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.332403+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:37.355456+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.355456+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:37.615012 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:06:37.680036 DEBUG Event type:state_changed:
+2016-11-25 15:06:37.680553 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:33.337522+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.337522+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:06:37.361601+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.361601+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:06:37.681128 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:06:37.744649 DEBUG Event type:state_changed:
+2016-11-25 15:06:37.745174 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:33.342204+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:33.342204+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:06:37.363660+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.363660+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:06:37.745795 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:06:40.843227 DEBUG Event type:state_changed:
+2016-11-25 15:06:40.843773 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:36.864128+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:36.864128+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:40.781858+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:40.781858+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:06:40.844271 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:06:40.846603 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:40.847119 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:41.048298 DEBUG Event type:call_service:
+2016-11-25 15:06:41.054134 DEBUG {'service_call_id': '1976338576-43', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_off'}
+2016-11-25 15:06:41.090181 DEBUG Event type:call_service:
+2016-11-25 15:06:41.099916 DEBUG {'service_call_id': '1976338576-44', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_off'}
+2016-11-25 15:06:41.116049 DEBUG Event type:service_executed:
+2016-11-25 15:06:41.116635 DEBUG {'service_call_id': '1976338576-44'}
+2016-11-25 15:06:41.130539 DEBUG Event type:service_executed:
+2016-11-25 15:06:41.131046 DEBUG {'service_call_id': '1976338576-43'}
+2016-11-25 15:06:41.153922 DEBUG Event type:call_service:
+2016-11-25 15:06:41.154431 DEBUG {'service_call_id': '1976338576-45', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_off'}
+2016-11-25 15:06:41.176992 DEBUG Event type:call_service:
+2016-11-25 15:06:41.177683 DEBUG {'service_call_id': '1976338576-46', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_off'}
+2016-11-25 15:06:41.192172 DEBUG Event type:service_executed:
+2016-11-25 15:06:41.192776 DEBUG {'service_call_id': '1976338576-46'}
+2016-11-25 15:06:41.206817 DEBUG Event type:service_executed:
+2016-11-25 15:06:41.207378 DEBUG {'service_call_id': '1976338576-45'}
+2016-11-25 15:06:41.268861 DEBUG Event type:state_changed:
+2016-11-25 15:06:41.269390 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:37.273804+00:00', 'attributes': {'brightness': 255.0, 'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.273804+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:41.094804+00:00', 'attributes': {'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.094804+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:06:41.269905 DEBUG Entity ID:light.kitchen_dimmer_level_14_0:
+2016-11-25 15:06:41.327567 DEBUG Event type:state_changed:
+2016-11-25 15:06:41.328102 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:37.279987+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.279987+00:00', 'entity_id': 'group.kitchen'}, 'new_state': {'last_changed': '2016-11-25T22:06:41.102999+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.102999+00:00', 'entity_id': 'group.kitchen'}, 'entity_id': 'group.kitchen'}
+2016-11-25 15:06:41.328657 DEBUG Entity ID:group.kitchen:
+2016-11-25 15:06:41.397688 DEBUG Event type:state_changed:
+2016-11-25 15:06:41.398290 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:37.282170+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.282170+00:00', 'entity_id': 'group.all_lights'}, 'new_state': {'last_changed': '2016-11-25T22:06:41.105185+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.105185+00:00', 'entity_id': 'group.all_lights'}, 'entity_id': 'group.all_lights'}
+2016-11-25 15:06:41.398882 DEBUG Entity ID:group.all_lights:
+2016-11-25 15:06:41.453673 DEBUG Event type:state_changed:
+2016-11-25 15:06:41.454207 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:37.355456+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.355456+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:06:41.176189+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.176189+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:06:41.454778 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:06:41.520963 DEBUG Event type:state_changed:
+2016-11-25 15:06:41.521504 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:37.361601+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.361601+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:06:41.183659+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.183659+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:06:41.522027 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:06:41.586518 DEBUG Event type:state_changed:
+2016-11-25 15:06:41.587043 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:37.363660+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:06:37.363660+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:06:41.185838+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.185838+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:06:41.587610 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:07:00.415061 DEBUG Event type:state_changed:
+2016-11-25 15:07:00.415630 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:40.781858+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:40.781858+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:07:00.296055+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.296055+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:07:00.416158 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:07:00.418523 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:07:00.419121 DEBUG call_service: homeassistant/turn_on, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:07:00.636085 DEBUG Event type:call_service:
+2016-11-25 15:07:00.636741 DEBUG {'service_call_id': '1976338576-47', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_on'}
+2016-11-25 15:07:00.660223 DEBUG Event type:call_service:
+2016-11-25 15:07:00.664257 DEBUG {'service_call_id': '1976338576-48', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_on'}
+2016-11-25 15:07:00.702142 DEBUG Event type:service_executed:
+2016-11-25 15:07:00.702988 DEBUG {'service_call_id': '1976338576-48'}
+2016-11-25 15:07:00.726820 DEBUG Event type:call_service:
+2016-11-25 15:07:00.727535 DEBUG {'service_call_id': '1976338576-49', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_on'}
+2016-11-25 15:07:00.750400 DEBUG Event type:call_service:
+2016-11-25 15:07:00.751004 DEBUG {'service_call_id': '1976338576-50', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_on'}
+2016-11-25 15:07:00.765051 DEBUG Event type:service_executed:
+2016-11-25 15:07:00.765658 DEBUG {'service_call_id': '1976338576-47'}
+2016-11-25 15:07:00.780078 DEBUG Event type:service_executed:
+2016-11-25 15:07:00.780808 DEBUG {'service_call_id': '1976338576-50'}
+2016-11-25 15:07:00.795348 DEBUG Event type:service_executed:
+2016-11-25 15:07:00.795987 DEBUG {'service_call_id': '1976338576-49'}
+2016-11-25 15:07:00.858237 DEBUG Event type:state_changed:
+2016-11-25 15:07:00.858852 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:41.094804+00:00', 'attributes': {'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.094804+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'new_state': {'last_changed': '2016-11-25T22:07:00.688165+00:00', 'attributes': {'brightness': 255, 'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.688165+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:07:00.859437 DEBUG Entity ID:light.kitchen_dimmer_level_14_0:
+2016-11-25 15:07:00.916909 DEBUG Event type:state_changed:
+2016-11-25 15:07:00.917544 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:41.102999+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.102999+00:00', 'entity_id': 'group.kitchen'}, 'new_state': {'last_changed': '2016-11-25T22:07:00.694286+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.694286+00:00', 'entity_id': 'group.kitchen'}, 'entity_id': 'group.kitchen'}
+2016-11-25 15:07:00.918138 DEBUG Entity ID:group.kitchen:
+2016-11-25 15:07:00.987559 DEBUG Event type:state_changed:
+2016-11-25 15:07:00.988180 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:41.105185+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.105185+00:00', 'entity_id': 'group.all_lights'}, 'new_state': {'last_changed': '2016-11-25T22:07:00.698140+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.698140+00:00', 'entity_id': 'group.all_lights'}, 'entity_id': 'group.all_lights'}
+2016-11-25 15:07:00.988799 DEBUG Entity ID:group.all_lights:
+2016-11-25 15:07:01.045887 DEBUG Event type:state_changed:
+2016-11-25 15:07:01.046525 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:41.176189+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.176189+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:07:00.769518+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.769518+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:07:01.047330 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:07:01.113420 DEBUG Event type:state_changed:
+2016-11-25 15:07:01.113943 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:41.183659+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.183659+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:07:00.775455+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.775455+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:07:01.114440 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:07:01.178352 DEBUG Event type:state_changed:
+2016-11-25 15:07:01.178869 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:41.185838+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:06:41.185838+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:07:00.777608+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.777608+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:07:01.179376 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:07:04.925814 DEBUG Event type:state_changed:
+2016-11-25 15:07:04.926363 DEBUG {'old_state': {'last_changed': '2016-11-25T22:07:00.296055+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.296055+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'new_state': {'last_changed': '2016-11-25T22:07:04.864062+00:00', 'attributes': {'node_id': 9, 'friendly_name': 'Door Sensor Sensor'}, 'state': 'off', 'last_updated': '2016-11-25T22:07:04.864062+00:00', 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}, 'entity_id': 'binary_sensor.door_sensor_sensor_9_0'}
+2016-11-25 15:07:04.926867 DEBUG Entity ID:binary_sensor.door_sensor_sensor_9_0:
+2016-11-25 15:07:04.929252 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:07:04.936337 DEBUG call_service: homeassistant/turn_off, {'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:07:05.113067 DEBUG Event type:call_service:
+2016-11-25 15:07:05.113629 DEBUG {'service_call_id': '1976338576-51', 'domain': 'homeassistant', 'service_data': {'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'service': 'turn_off'}
+2016-11-25 15:07:05.159019 DEBUG Event type:call_service:
+2016-11-25 15:07:05.159712 DEBUG {'service_call_id': '1976338576-52', 'domain': 'switch', 'service_data': {'entity_id': ['switch.outdoor_switch_switch_8_0']}, 'service': 'turn_off'}
+2016-11-25 15:07:05.174393 DEBUG Event type:service_executed:
+2016-11-25 15:07:05.175060 DEBUG {'service_call_id': '1976338576-52'}
+2016-11-25 15:07:05.189610 DEBUG Event type:service_executed:
+2016-11-25 15:07:05.205170 DEBUG {'service_call_id': '1976338576-51'}
+2016-11-25 15:07:05.232161 DEBUG Event type:call_service:
+2016-11-25 15:07:05.232973 DEBUG {'service_call_id': '1976338576-53', 'domain': 'homeassistant', 'service_data': {'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'service': 'turn_off'}
+2016-11-25 15:07:05.256688 DEBUG Event type:call_service:
+2016-11-25 15:07:05.257532 DEBUG {'service_call_id': '1976338576-54', 'domain': 'light', 'service_data': {'entity_id': ['light.kitchen_dimmer_level_14_0']}, 'service': 'turn_off'}
+2016-11-25 15:07:05.275251 DEBUG Event type:service_executed:
+2016-11-25 15:07:05.276449 DEBUG {'service_call_id': '1976338576-54'}
+2016-11-25 15:07:05.291739 DEBUG Event type:service_executed:
+2016-11-25 15:07:05.292272 DEBUG {'service_call_id': '1976338576-53'}
+2016-11-25 15:07:05.346740 DEBUG Event type:state_changed:
+2016-11-25 15:07:05.347309 DEBUG {'old_state': {'last_changed': '2016-11-25T22:07:00.769518+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.769518+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'new_state': {'last_changed': '2016-11-25T22:07:05.196191+00:00', 'attributes': {'node_id': 8, 'friendly_name': 'Heating Pad'}, 'state': 'off', 'last_updated': '2016-11-25T22:07:05.196191+00:00', 'entity_id': 'switch.outdoor_switch_switch_8_0'}, 'entity_id': 'switch.outdoor_switch_switch_8_0'}
+2016-11-25 15:07:05.348042 DEBUG Entity ID:switch.outdoor_switch_switch_8_0:
+2016-11-25 15:07:05.413680 DEBUG Event type:state_changed:
+2016-11-25 15:07:05.414201 DEBUG {'old_state': {'last_changed': '2016-11-25T22:07:00.775455+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.775455+00:00', 'entity_id': 'group.master_bedroom'}, 'new_state': {'last_changed': '2016-11-25T22:07:05.202508+00:00', 'attributes': {'entity_id': ['light.dimmer_module_level_13_0', 'switch.outdoor_switch_switch_8_0'], 'order': 4, 'friendly_name': 'Master Bedroom'}, 'state': 'off', 'last_updated': '2016-11-25T22:07:05.202508+00:00', 'entity_id': 'group.master_bedroom'}, 'entity_id': 'group.master_bedroom'}
+2016-11-25 15:07:05.414927 DEBUG Entity ID:group.master_bedroom:
+2016-11-25 15:07:05.479051 DEBUG Event type:state_changed:
+2016-11-25 15:07:05.479582 DEBUG {'old_state': {'last_changed': '2016-11-25T22:07:00.777608+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.777608+00:00', 'entity_id': 'group.all_switches'}, 'new_state': {'last_changed': '2016-11-25T22:07:05.205037+00:00', 'attributes': {'hidden': True, 'entity_id': ['switch.outdoor_switch_switch_8_0'], 'order': 10, 'auto': True, 'friendly_name': 'all switches'}, 'state': 'off', 'last_updated': '2016-11-25T22:07:05.205037+00:00', 'entity_id': 'group.all_switches'}, 'entity_id': 'group.all_switches'}
+2016-11-25 15:07:05.480325 DEBUG Entity ID:group.all_switches:
+2016-11-25 15:07:05.542123 DEBUG Event type:state_changed:
+2016-11-25 15:07:05.542652 DEBUG {'old_state': {'last_changed': '2016-11-25T22:07:00.688165+00:00', 'attributes': {'brightness': 255, 'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.688165+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'new_state': {'last_changed': '2016-11-25T22:07:05.265372+00:00', 'attributes': {'node_id': 14, 'supported_features': 19, 'friendly_name': 'Kitchen Dimmer Level'}, 'state': 'off', 'last_updated': '2016-11-25T22:07:05.265372+00:00', 'entity_id': 'light.kitchen_dimmer_level_14_0'}, 'entity_id': 'light.kitchen_dimmer_level_14_0'}
+2016-11-25 15:07:05.543458 DEBUG Entity ID:light.kitchen_dimmer_level_14_0:
+2016-11-25 15:07:05.600484 DEBUG Event type:state_changed:
+2016-11-25 15:07:05.601001 DEBUG {'old_state': {'last_changed': '2016-11-25T22:07:00.694286+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.694286+00:00', 'entity_id': 'group.kitchen'}, 'new_state': {'last_changed': '2016-11-25T22:07:05.271334+00:00', 'attributes': {'entity_id': ['light.kitchen_dimmer_level_14_0'], 'order': 3, 'friendly_name': 'Kitchen'}, 'state': 'off', 'last_updated': '2016-11-25T22:07:05.271334+00:00', 'entity_id': 'group.kitchen'}, 'entity_id': 'group.kitchen'}
+2016-11-25 15:07:05.601758 DEBUG Entity ID:group.kitchen:
+2016-11-25 15:07:05.670281 DEBUG Event type:state_changed:
+2016-11-25 15:07:05.670807 DEBUG {'old_state': {'last_changed': '2016-11-25T22:07:00.698140+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'on', 'last_updated': '2016-11-25T22:07:00.698140+00:00', 'entity_id': 'group.all_lights'}, 'new_state': {'last_changed': '2016-11-25T22:07:05.273533+00:00', 'attributes': {'hidden': True, 'entity_id': ['light.kitchen_dimmer_level_14_0', 'light.dimmer_module_level_13_0'], 'order': 12, 'auto': True, 'friendly_name': 'all lights'}, 'state': 'off', 'last_updated': '2016-11-25T22:07:05.273533+00:00', 'entity_id': 'group.all_lights'}, 'entity_id': 'group.all_lights'}
+2016-11-25 15:07:05.671535 DEBUG Entity ID:group.all_lights:
+2016-11-25 15:07:30.658576 DEBUG Event type:state_changed:
+2016-11-25 15:07:30.659167 DEBUG {'old_state': {'last_changed': '2016-11-25T22:06:30.566508+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '24.6', 'last_updated': '2016-11-25T22:06:30.566508+00:00', 'entity_id': 'sensor.ram_use'}, 'new_state': {'last_changed': '2016-11-25T22:07:30.575887+00:00', 'attributes': {'unit_of_measurement': '%', 'icon': 'mdi:memory', 'friendly_name': 'RAM Use'}, 'state': '24.5', 'last_updated': '2016-11-25T22:07:30.575887+00:00', 'entity_id': 'sensor.ram_use'}, 'entity_id': 'sensor.ram_use'}
+2016-11-25 15:07:30.660024 DEBUG Entity ID:sensor.ram_use:
+2016-11-25 15:07:30.744587 DEBUG Event type:state_changed:
+2016-11-25 15:07:30.745404 DEBUG {'old_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 16.81, 'azimuth': 221.74, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:06:30.617830+00:00', 'entity_id': 'sun.sun'}, 'new_state': {'last_changed': '2016-11-25T21:47:42.878047+00:00', 'attributes': {'next_setting': '2016-11-26T00:03:10+00:00', 'elevation': 16.68, 'azimuth': 221.95, 'next_rising': '2016-11-26T14:26:30+00:00', 'friendly_name': 'Sun'}, 'state': 'above_horizon', 'last_updated': '2016-11-25T22:07:30.671920+00:00', 'entity_id': 'sun.sun'}, 'entity_id': 'sun.sun'}
+2016-11-25 15:07:30.746218 DEBUG Entity ID:sun.sun:

@@ -1,0 +1,13 @@
+import appdaemon.appapi as appapi
+
+#
+# Hellow World App
+#
+# Args:
+#
+
+class HelloWorld(appapi.AppDaemon):
+
+  def initialize(self):
+     self.switch = self.args["switch"]
+     self.log("You are now ready to run Apps!") 
