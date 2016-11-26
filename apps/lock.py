@@ -21,10 +21,10 @@ class LockSync(appapi.AppDaemon):
         self.listen_state(self.unlock, self.alarm, new=19)
         self.listen_state(self.unlock, self.alarm, new=22)
 
-    def lock(self):
+    def lock(self, entity, attribute, old, new, kwargs):
         self.log("LockSync: Lock")
         self.call_service("lock.lock", entity_id=self.lock)
 
-    def unlock(self):
+    def unlock(self, entity, attribute, old, new, kwargs):
         self.log("LockSync: Unlock")
         self.call_service("lock.unlock", entity_id=self.lock)
