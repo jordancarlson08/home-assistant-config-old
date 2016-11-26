@@ -20,10 +20,8 @@ class LockSync(appapi.AppDaemon):
         self.listen_state(self.unlock, self.alarm, new="19")
         self.listen_state(self.unlock, self.alarm, new="22")
 
-
     def lock(self):
-        #change to 24
+        self.call_service("lock.lock", entity_id=self.lock)
 
-
-    def lock(self):
-        # change to 25
+    def unlock(self):
+        self.call_service("lock.unlock", entity_id=self.lock)
