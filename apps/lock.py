@@ -15,11 +15,17 @@ class LockSync(appapi.AppDaemon):
         self.alarm = self.args["alarm"]
 
         self.log("LockSync: Initialize state listeners")
-        self.listen_state(self.lock, self.alarm, new='18')
-        self.listen_state(self.lock, self.alarm, new='21')
+        # self.listen_state(self.lock, self.alarm, new='18')
+        # self.listen_state(self.lock, self.alarm, new='21')
+        #
+        # self.listen_state(self.unlock, self.alarm, new='19')
+        # self.listen_state(self.unlock, self.alarm, new='22')
 
-        self.listen_state(self.unlock, self.alarm, new='19')
-        self.listen_state(self.unlock, self.alarm, new='22')
+        self.listen_state(self.lock, self.alarm)
+        self.listen_state(self.lock, self.alarm)
+
+        # self.listen_state(self.unlock, self.alarm)
+        # self.listen_state(self.unlock, self.alarm)
 
     def lock(self, entity, attribute, old, new, kwargs):
         self.log("LockSync: Lock")
