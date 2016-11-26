@@ -37,4 +37,6 @@ class LockSync(appapi.AppDaemon):
 
     def unlock(self, entity, attribute, old, new, kwargs):
         self.log("LockSync: Unlock")
+        self.log(old)
+        self.log(new)
         self.call_service("lock/unlock", entity_id=self.lock)
