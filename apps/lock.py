@@ -21,7 +21,7 @@ class LockSync(appapi.AppDaemon):
         self.log("LockSync: Unlock")
         self.log("old:" + old)
         self.log("new:" + new)
-        if new == 18 or new == 21:
+        if new == "18" or new == "21":
             self.call_service("lock/lock", entity_id=self.lock)
-        if new == 19 or new == 22:
+        if new == "19" or new == "22":
             self.call_service("lock/unlock", entity_id=self.lock)
