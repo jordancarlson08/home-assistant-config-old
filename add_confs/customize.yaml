@@ -5,31 +5,6 @@
 
 ### Hidden ###
 
-media_player.carlson_chromecast:
-  hidden: true
-configurator.plex_media_server:
-  hidden: true
-media_player.roku_4e653r006581:
-  hidden: true
-media_player.roku_4e653w004136:
-  friendly_name: Ras Living Room
-  hidden: true
-media_player.plex_web_chrome:
-  hidden: true
-sensor.ecolink_doorwindow_sensor_alarm_level_9_1:
-  hidden: true
-sensor.ecolink_doorwindow_sensor_alarm_type_9_0:
-  hidden: true
-sensor.ecolink_doorwindow_sensor_burglar_9_10:
-  hidden: true
-sensor.ecolink_doorwindow_sensor_sourcenodeid_9_2:
-  hidden: true
-binary_sensor.ecolink_doorwindow_sensor_sensor_9_0:
-  hidden: true
-sensor.kwikset_door_lock_alarm_level_12_1:
-  hidden: true
-sensor.kwikset_door_lock_alarm_type_12_0:
-  hidden: true
 
 
 
