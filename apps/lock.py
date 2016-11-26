@@ -14,6 +14,7 @@ class LockSync(appapi.AppDaemon):
         self.lock = self.args["lock"]
         self.alarm = self.args["alarm"]
 
+        self.log("LockSync: Initialize state listeners")
         self.listen_state(self.lock, self.alarm, new=18)
         self.listen_state(self.lock, self.alarm, new=21)
 
@@ -21,7 +22,9 @@ class LockSync(appapi.AppDaemon):
         self.listen_state(self.unlock, self.alarm, new=22)
 
     def lock(self):
+        self.log("LockSync: Lock")
         self.call_service("lock.lock", entity_id=self.lock)
 
     def unlock(self):
+        self.log("LockSync: Unlock")
         self.call_service("lock.unlock", entity_id=self.lock)
