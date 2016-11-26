@@ -23,18 +23,18 @@ class LockSync(appapi.AppDaemon):
         # self.listen_state(self.unlock, self.alarm, new='19')
         # self.listen_state(self.unlock, self.alarm, new='22')
 
-        self.listen_state(self.lock, "sensor.back_door_alarm_type_15_0")
+        # self.listen_state(self.lock, "sensor.back_door_alarm_type_15_0")
         # self.listen_state(self.lock, self.alarm)
 
-        # self.listen_state(self.unlock, self.alarm)
+        self.listen_state(self.unlock, self.alarm)
         # self.listen_state(self.unlock, self.alarm)
 
     def lock(self, entity, attribute, old, new, kwargs):
         self.log("LockSync: Lock")
         self.log(old)
         self.log(new)
-        self.call_service("lock.lock", entity_id="lock.back_door_locked_15_0")
+        # self.call_service("lock/lock", entity_id="lock.back_door_locked_15_0")
 
     def unlock(self, entity, attribute, old, new, kwargs):
         self.log("LockSync: Unlock")
-        self.call_service("lock.unlock", entity_id=self.lock)
+        self.call_service("lock/unlock", entity_id=self.lock)
