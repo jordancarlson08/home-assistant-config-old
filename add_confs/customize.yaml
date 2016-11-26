@@ -26,9 +26,6 @@ sensor.batt_back_door:
 sensor.back_door:
   icon: mdi:checkbox-multiple-blank-circle
 
-sensor.forecastio_temperature:
-  friendly_name: Temp
-
 sensor.batt_back_door_lock:
   icon: mdi:battery
 

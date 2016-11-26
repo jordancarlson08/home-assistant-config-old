@@ -5,25 +5,25 @@ import appdaemon.appapi as appapi
 # Lock Sync App
 #
 # Args:
+#   lock
+#   alarm
 #
 
 class LockSync(appapi.AppDaemon):
     def initialize(self):
-    #     self.switch = self.args["switch"]
-    #
-    #     # Get time string
-    #     time_on = self.args["time_on"]
-    #     # Convert string to datetime time
-    #     self.time_on = datetime.datetime.strptime(time_on, "%H:%M:%S").time()
-    #
-    #     time_off = self.args["time_off"]
-    #     self.time_off = datetime.datetime.strptime(time_off, "%H:%M:%S").time()
-    #
-    #     self.run_daily(self.turn_on_cb, self.time_on)
-    #     self.run_daily(self.turn_off_cb, self.time_off)
-    #
-    # def turn_on_cb(self, arg):
-    #     self.turn_on(self.switch)
-    #
-    # def turn_off_cb(self, arg):
-    #     self.turn_off(self.switch)
+        self.lock = self.args["lock"]
+        self.alarm = self.args["alarm"]
+
+        self.listen_state(self.lock, self.alarm, new="18")
+        self.listen_state(self.lock, self.alarm, new="21")
+
+        self.listen_state(self.unlock, self.alarm, new="19")
+        self.listen_state(self.unlock, self.alarm, new="22")
+
+
+    def lock(self):
+        #change to 24
+
+
+    def lock(self):
+        # change to 25
