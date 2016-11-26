@@ -12,3 +12,17 @@ jenna_jenna_iphone:
   picture: https://s.gravatar.com/avatar/8963cd2cc26c7bbfd7be77567fd4bffd?s=80
   track: yes
   hide_if_away: no
+
+jordan_jordan_phone:
+  hide_if_away: false
+  mac:
+  name: Jordan
+  picture:
+  track: true
+
+jordan_jordan:
+  hide_if_away: false
+  mac:
+  name: Jordan
+  picture:
+  track: true
