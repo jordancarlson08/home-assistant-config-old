@@ -10,9 +10,12 @@ class Codes:
             'content-type': "application/json",
             'cache-control': "no-cache",
         }
-        response = requests.request("PUT", url, headers=headers, data=json.dumps(body))
-        print(response.text)
-        time.sleep(0.5)
+        requests.request("PUT", url, headers=headers, data=json.dumps(body))
+        time.sleep(1)
+
+    def send_commands(commands):
+        for command in commands:
+            Codes.send_command(command)
 
     roku_home = {
         "period": 862316,
