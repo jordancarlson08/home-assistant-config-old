@@ -48,7 +48,7 @@ home_assistant_status:
   entities:
     - script.restart_ha
     - script.reload_ha
-    - script.roku_home
+    - script.watch_movie
 
 door_info:
   name: Doors

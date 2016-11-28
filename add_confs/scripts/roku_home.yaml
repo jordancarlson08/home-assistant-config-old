@@ -1,6 +1,0 @@
-sequence:
-- event: LOGBOOK_ENTRY
-  event_data:
-    name: AV
-    message: "Roku Home Pressed"
-- service: shell_command.roku_home

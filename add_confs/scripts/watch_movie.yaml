@@ -1,0 +1,6 @@
+sequence:
+- event: LOGBOOK_ENTRY
+  event_data:
+    name: AV
+    message: "Watch a Movie launched"
+- service: shell_command.watch_movie

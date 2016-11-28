@@ -1,3 +1,3 @@
 restart_ha: !include scripts/restart_ha.yaml
 reload_ha: !include scripts/reload_ha.yaml
-roku_home: !include scripts/roku_home.yaml
+roku_home: !include scripts/watch_movie.yaml
