@@ -42,8 +42,8 @@ mqtt:
   password: !secret mqtt_password
 
 media_player:
-  - platform: roku
-  - host: 192.168.0.110
+  platform: roku
+  host: 192.168.0.110
 
 notify:
   name: HTML5
