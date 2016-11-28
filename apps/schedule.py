@@ -31,3 +31,32 @@ class SimpleSchedule(appapi.AppDaemon):
 
     def turn_off_cb(self, arg):
         self.turn_off(self.switch)
+
+
+#
+# Auto Off App
+#   Turn off a device during when it falls between two given times.
+#
+# Args:
+#   start       -- ex. 10:30:30 == 10:30am and 30 seconds
+#   end         --
+#   switch      -- the entity id of the switch or light
+#
+
+
+class AutoOff(appapi.AppDaemon):
+    def initialize(self):
+        self.switch = self.args["switch"]
+        self.start = self.args["start"]
+        self.end = self.args["end"]
+
+        time = datetime.time(0, 5, 0)
+        self.run_hourly(self.turn_off_cb, time)
+
+    def turn_off_cb(self, arg):
+        now = datetime.datetime.now()
+        start = datetime.datetime.strptime(self.start, "%H:%M:%S").time()
+        end = datetime.datetime.strptime(self.end, "%H:%M:%S").time()
+
+        if start < now < end:
+            self.turn_off(self.switch)

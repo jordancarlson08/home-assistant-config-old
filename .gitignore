@@ -9,3 +9,4 @@ plex.conf
 pyozw.sqlite
 zwscene.xml
 .idea/
+add_confs/shell_commands/__pycache__/
