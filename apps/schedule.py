@@ -54,7 +54,7 @@ class AutoOff(appapi.AppDaemon):
         self.run_hourly(self.turn_off_cb, time)
 
     def turn_off_cb(self, arg):
-        now = datetime.datetime.now()
+        now = datetime.datetime.now().time()
         start = datetime.datetime.strptime(self.start, "%H:%M:%S").time()
         end = datetime.datetime.strptime(self.end, "%H:%M:%S").time()
 
