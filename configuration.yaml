@@ -16,7 +16,7 @@ homeassistant:
   customize: !include add_confs/customize.yaml
 
 #logger:
-discovery:
+#discovery:
 frontend:
 updater:
 conversation:
@@ -40,6 +40,10 @@ mqtt:
   port: 12396
   username: Home Assistant
   password: !secret mqtt_password
+
+media_player:
+  - platform: roku
+  - host: 192.168.0.110
 
 notify:
   name: HTML5
