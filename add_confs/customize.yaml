@@ -36,7 +36,7 @@ sensor.garage_door_state:
 
 ### Locks ###
 
-lock.back_door_lock_locked_12_0:
+lock.back_door_locked_15_0:
   friendly_name: Back Door Lock
 
 ### Misc ###

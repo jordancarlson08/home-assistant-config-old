@@ -40,7 +40,7 @@ master_bedroom:
 door_back:
   name: Back Door
   entities:
-    - lock.back_door_lock_locked_12_0
+    - lock.back_door_locked_15_0
     - sensor.back_door
 
 home_assistant_status:

@@ -36,8 +36,8 @@
     batt_back_door_lock:
       friendly_name: 'Back Door Lock Battery'
       value_template: >-
-                      {%- if states.lock.back_door_lock_locked_12_0 %}
-                        {{ states.lock.back_door_lock_locked_12_0.attributes.battery_level }}
+                      {%- if states.lock.back_door_locked_15_0 %}
+                        {{ states.lock.back_door_locked_15_0.attributes.battery_level }}
                       {% else %}
                         n/a
                       {%- endif %}
