@@ -41,6 +41,9 @@ lock.back_door_locked_15_0:
 
 ### Misc ###
 
+media_player.roku_4a654n088111:
+  friendly_name: Roku
+
 # script.reload_ha:
 #   icon: mdi:undo
 #   friendly_name: "Reload Config"
