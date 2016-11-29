@@ -1,3 +1,5 @@
 restart_ha: !include scripts/restart_ha.yaml
 reload_ha: !include scripts/reload_ha.yaml
 watch_movie: !include scripts/watch_movie.yaml
+vol_up: !include scripts/vol_up.yaml
+vol_down: !include scripts/vol_down.yaml

@@ -1,0 +1,6 @@
+sequence:
+- event: LOGBOOK_ENTRY
+  event_data:
+    name: AV
+    message: "Volume Down"
+- service: shell_command.vol_down
