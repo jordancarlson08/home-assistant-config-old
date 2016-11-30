@@ -21,3 +21,5 @@ class LockSync(appapi.AppDaemon):
             self.call_service("lock/lock", entity_id=self.lock)
         if new == "19" or new == "22":
             self.call_service("lock/unlock", entity_id=self.lock)
+        if new == "19" or new == "22" or new == "25":
+            self.call_service("notify/simple", title="Lock", message="Back door unlocked." + new)
