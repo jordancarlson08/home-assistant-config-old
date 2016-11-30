@@ -46,10 +46,13 @@ media_player:
   host: 192.168.0.110
 
 notify:
-  name: HTML5
-  platform: html5
-  gcm_api_key: !secret gcm_api_key
-  gcm_sender_id: !secret gcm_sender_id
+  name: Simple
+  platform: simplepush
+  device_key: jAeVKC
+#  name: HTML5
+#  platform: html5
+#  gcm_api_key: !secret gcm_api_key
+#  gcm_sender_id: !secret gcm_sender_id
 
 device_tracker:
   platform: owntracks
