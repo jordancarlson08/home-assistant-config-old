@@ -20,6 +20,9 @@ class TestApp(appapi.AppDaemon):
 
     def turn_on_cb(self, entity, attribute, old, new, kwargs):
         self.turn_on(self.switch)
+        self.call_service("notify/simple", title="Test", message="On")
 
     def turn_off_cb(self, entity, attribute, old, new, kwargs):
         self.turn_off(self.switch)
+        self.call_service("notify/simple", title="Test", message="Off")
+
