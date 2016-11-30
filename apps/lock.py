@@ -13,7 +13,6 @@ class LockSync(appapi.AppDaemon):
     def initialize(self):
         self.lock = self.args["lock"]
         self.alarm = self.args["alarm"]
-        self.call_service("notify/simple", title="Lock", message="Initialize LockSync.")
         self.listen_state(self.sync_lock, self.alarm)
 
     def sync_lock(self, entity, attribute, old, new, kwargs):
@@ -22,4 +21,4 @@ class LockSync(appapi.AppDaemon):
         if new == "19" or new == "22":
             self.call_service("lock/unlock", entity_id=self.lock)
         if new == "19" or new == "22" or new == "25":
-            self.call_service("notify/simple", title="Lock", message="Back door unlocked." + new)
+            self.call_service("notify/simple", title="Lock", message="Back door unlocked.")
