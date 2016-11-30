@@ -13,7 +13,7 @@ class LockSync(appapi.AppDaemon):
     def initialize(self):
         self.lock = self.args["lock"]
         self.alarm = self.args["alarm"]
-
+        self.call_service("notify/simple", title="Lock", message="Initialize LockSync.")
         self.listen_state(self.sync_lock, self.alarm)
 
     def sync_lock(self, entity, attribute, old, new, kwargs):
