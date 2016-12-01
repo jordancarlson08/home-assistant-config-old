@@ -16,7 +16,7 @@ import datetime
 class MapCommand(appapi.AppDaemon):
     def initialize(self):
         self.log("initialize")
-        self.listen_event(self.log_details, "script.vol_up")
+        self.listen_event(self.log_details, "call_service", service="vol_up")
 
     def log_details(self, arg):
         self.log("Inside log details")
