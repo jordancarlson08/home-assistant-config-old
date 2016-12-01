@@ -18,7 +18,8 @@ class MapCommand(appapi.AppDaemon):
         self.log("initialize")
         self.listen_event(self.log_details, "call_service", service="vol_up")
 
-    def log_details(self, event_name, data):
+    def log_details(self, event_name, data, **kwargs):
         self.log("Inside log details")
         self.log(event_name)
         self.log(data)
+        self.log(kwargs)
