@@ -1443,3 +1443,5 @@
 2016-12-03 12:59:14.483662 INFO map: initialize
 2016-12-03 12:59:14.484233 INFO Loading Module: /home/hass/.homeassistant/apps/logs/straightpython.py
 2016-12-03 12:59:14.490286 INFO App initialization complete
+2016-12-03 13:03:26.003937 INFO Reloading Module: /home/hass/.homeassistant/apps/lock.py
+2016-12-03 13:03:26.008164 INFO Loading Object lock_sync using class LockSync from module lock
