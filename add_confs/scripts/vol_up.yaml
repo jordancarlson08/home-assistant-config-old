@@ -4,3 +4,6 @@ sequence:
     name: AV
     message: "Volume Up"
 - service: shell_command.vol_up
+- event: TEST
+  event_data:
+    test: test
