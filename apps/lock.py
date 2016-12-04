@@ -1,5 +1,5 @@
 import appdaemon.appapi as appapi
-
+import datetime
 
 #
 # Lock Sync App
@@ -17,9 +17,14 @@ class LockSync(appapi.AppDaemon):
         self.call_service("notify/html5", title="Lock", message="Back door unlocked.")
 
     def sync_lock(self, entity, attribute, old, new, kwargs):
+        time = datetime.datetime.now().time()
+        time = time.strftime('%l:%M %p')
+
         if new == "18" or new == "21":
             self.call_service("lock/lock", entity_id=self.lock)
         if new == "19" or new == "22":
             self.call_service("lock/unlock", entity_id=self.lock)
+        if new == "18" or new == "21" or new == "24":
+            self.call_service("notify/html5", title="Lock", message="Back door locked at " + time)
         if new == "19" or new == "22" or new == "25":
-            self.call_service("notify/html5", title="Lock", message="Back door unlocked.")
+            self.call_service("notify/html5", title="Lock", message="Back door unlocked at " + time)
