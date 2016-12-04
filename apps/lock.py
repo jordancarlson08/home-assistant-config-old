@@ -12,9 +12,9 @@ import datetime
 
 def lock_code_to_string(string_code):
     if string_code == "18" or string_code == "19":
-        method = "by hand"
-    elif string_code == "21" or string_code == "22":
         method = "with the keypad"
+    elif string_code == "21" or string_code == "22":
+        method = "by hand"
     elif string_code == "24" or string_code == "25":
         method = "by Zwave"
     else:
