@@ -22,6 +22,10 @@ def lock_code_to_string(string_code):
     return method
 
 
+def message(state, new, time):
+    return "Back door " + state + " " + lock_code_to_string(new) + " at " + time
+
+
 class LockSync(appapi.AppDaemon):
     def initialize(self):
         self.lock = self.args["lock"]
@@ -36,14 +40,15 @@ class LockSync(appapi.AppDaemon):
         time = datetime.datetime.now().time()
         time = time.strftime('%l:%M:%S %p')
 
+        # Sync the UI with the locks
         if new == "18" or new == "21":
             self.call_service("lock/lock", entity_id=self.lock)
         if new == "19" or new == "22":
             self.call_service("lock/unlock", entity_id=self.lock)
 
+        # Notify of any changes in state
         if new == "18" or new == "21" or new == "24":
-            self.call_service("notify/html5", title="Lock",
-                              message="Back door locked " + lock_code_to_string(new) + " at " + time)
+            self.call_service("notify/html5", title="Lock", message=message("locked", new, time))
         if new == "19" or new == "22" or new == "25":
-            self.call_service("notify/html5", title="Lock",
-                              message="Back door unlocked " + lock_code_to_string(new) + " at " + time)
+            self.call_service("notify/html5", title="Lock", message=message("unlocked", new, time))
+
