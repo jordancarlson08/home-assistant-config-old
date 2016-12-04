@@ -13,3 +13,17 @@ jenna_jenna_iphone:
   track: yes
   hide_if_away: no
 
+
+jordan_jordan_phone:
+  hide_if_away: false
+  mac:
+  name: Jordan
+  picture:
+  track: true
+
+jordan_jordan:
+  hide_if_away: false
+  mac:
+  name: Jordan
+  picture:
+  track: true
