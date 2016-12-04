@@ -14,7 +14,10 @@ class LockSync(appapi.AppDaemon):
         self.lock = self.args["lock"]
         self.alarm = self.args["alarm"]
         self.listen_state(self.sync_lock, self.alarm)
-        self.call_service("notify/html5", title="Lock", message="Back door unlocked.")
+
+        time = datetime.datetime.now().time()
+        time = time.strftime('%l:%M %p')
+        self.call_service("notify/html5", title="Lock", message="LockSync initialized at " + time)
 
     def sync_lock(self, entity, attribute, old, new, kwargs):
         time = datetime.datetime.now().time()
