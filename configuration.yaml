@@ -59,10 +59,9 @@ device_tracker:
   - platform: owntracks
     max_gps_accuracy: 200
 
-#  - platform: nmap_tracker
-#    home_interval: 10
-#    - hosts:
-#      - 192.168.0.102
+  - platform: nmap_tracker
+    home_interval: 10
+    hosts: 192.168.0.102
 #      - 192.168.0.100
 
 ecobee:
