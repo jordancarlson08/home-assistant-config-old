@@ -1,0 +1,6 @@
+sequence:
+- event: LOGBOOK_ENTRY
+  event_data:
+    name: AV
+    message: "TV and Sound OFF"
+- service: shell_command.tv_off

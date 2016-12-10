@@ -1,3 +1,4 @@
 watch_movie: python3 /home/hass/.homeassistant/add_confs/shell_commands/watch_movie.py
+tv_off: python3 /home/hass/.homeassistant/add_confs/shell_commands/tv_off.py
 vol_up: python3 /home/hass/.homeassistant/add_confs/shell_commands/vol_up.py
 vol_down: python3 /home/hass/.homeassistant/add_confs/shell_commands/vol_down.py
