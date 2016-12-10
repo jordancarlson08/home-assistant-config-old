@@ -5,7 +5,7 @@ import time
 
 class Codes:
     def send_command(body):
-        url = "http://192.168.0.102/5c-cf-7f-13-c3-5f/api/ir/write"
+        url = "http://192.168.0.100/5c-cf-7f-13-c3-5f/api/ir/write"
         headers = {
             'content-type': "application/json",
             'cache-control': "no-cache",
