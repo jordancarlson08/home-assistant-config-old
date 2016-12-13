@@ -69,7 +69,7 @@ ecobee:
 
 zwave:
   usb_path: /dev/serial/by-id/usb-0658_0200-if00
-  polling_interval: 60000
+  polling_interval: 30000
 
 #garage_door:
 #  - platform: mqtt

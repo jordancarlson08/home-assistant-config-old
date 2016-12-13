@@ -4,3 +4,4 @@ watch_movie: !include scripts/watch_movie.yaml
 tv_off: !include scripts/tv_off.yaml
 vol_up: !include scripts/vol_up.yaml
 vol_down: !include scripts/vol_down.yaml
+goodbye: !include scripts/goodbye.yaml

@@ -1,0 +1,7 @@
+sequence:
+- event: LOGBOOK_ENTRY
+  event_data:
+    name: Compound
+    message: "Goodbye"
+- service: shell_command.tv_off
+- service: lock.lock
