@@ -36,8 +36,8 @@ http:
   ssl_key: /etc/letsencrypt/live/home.jordancarlson.me/privkey.pem
 
 mqtt:
-  broker: m13.cloudmqtt.com
-  port: 11377
+  broker: m11.cloudmqtt.com
+  port: 12396
   username: Home Assistant
   password: !secret mqtt_password
 
