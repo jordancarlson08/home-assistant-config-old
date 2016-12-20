@@ -34,6 +34,8 @@ http:
   api_password: !secret http_password
   ssl_certificate: /etc/letsencrypt/live/home.jordancarlson.me/fullchain.pem
   ssl_key: /etc/letsencrypt/live/home.jordancarlson.me/privkey.pem
+  base_url: home.jordancarlson.me
+  login_attempts_threshold: 5
 
 mqtt:
   broker: m11.cloudmqtt.com
