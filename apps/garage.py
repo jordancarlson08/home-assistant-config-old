@@ -13,17 +13,15 @@ import datetime
 class Garage(appapi.AppDaemon):
     def initialize(self):
 
-        self.listen_state(self.notify_garage, "call_service")
+        self.listen_state(self.notify_garage(), "cover.garage_door")
 
         time = datetime.datetime.now().time()
         time = time.strftime('%l:%M:%S %p')
         self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time)
 
-    def notify_garage(self, event_name, data, kwargs):
+    def notify_garage(self, entity, attribute, old, new, kwargs):
         time = datetime.datetime.now().time()
         time = time.strftime('%l:%M:%S %p')
 
-        self.log(data["payload"])
-
-        # self.call_service("notify/html5", title="Lock", message=message("unlocked", new, time))
+        self.call_service("notify/html5", title="Garage", message=new + " at " + time)
 
