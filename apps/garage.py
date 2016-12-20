@@ -23,7 +23,7 @@ class Garage(appapi.AppDaemon):
         time = datetime.datetime.now().time()
         time = time.strftime('%l:%M:%S %p')
 
-        print (data["payload"])
+        self.log(data["payload"])
 
         # self.call_service("notify/html5", title="Lock", message=message("unlocked", new, time))
 
