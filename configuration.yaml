@@ -16,7 +16,7 @@ homeassistant:
   customize: !include add_confs/customize.yaml
 
 #logger:
-#discovery:
+discovery:
 frontend:
 updater:
 conversation:
