@@ -33,6 +33,13 @@
 
 - platform: template
   sensors:
+    garage_door_sensor:
+      friendly_name: 'Garage Door Status'
+      value_template: >-
+        {{ states('cover.garage_door') }}
+
+- platform: template
+  sensors:
     batt_back_door_lock:
       friendly_name: 'Back Door Lock Battery'
       value_template: >-
