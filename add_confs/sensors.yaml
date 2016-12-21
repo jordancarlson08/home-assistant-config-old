@@ -34,7 +34,7 @@
 - platform: template
   sensors:
     garage_door_sensor:
-      friendly_name: 'Garage Door Status'
+      friendly_name: 'Status'
       value_template: >-
         {{ states('cover.garage_door') }}
 

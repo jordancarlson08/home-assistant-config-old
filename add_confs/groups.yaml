@@ -11,10 +11,12 @@ home:
     - device_tracker.jenna_jenna_iphone
     - device_tracker.jordan_pixel
     - sensor.weather_temperature
+    - sensor.home_temperature
+    - sensor.upstairs_temperature
     - group.kitchen
     - group.master_bedroom
     - group.door_back
-    # - group.garage_info
+    - group.garage
 
 info:
   view: yes
@@ -42,6 +44,12 @@ door_back:
   entities:
     - lock.back_door_locked_15_0
     - sensor.back_door
+
+garage:
+  name: Garage
+  entities:
+    - cover.garage_door
+    - sensor.garage_door_sensor
 
 home_assistant_status:
   name: System
