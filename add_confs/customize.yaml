@@ -26,6 +26,9 @@ sensor.batt_back_door:
 sensor.back_door:
   icon: mdi:checkbox-multiple-blank-circle
 
+sensor.garage_door_sensor:
+  icon: mdi:checkbox-multiple-blank-circle
+
 sensor.batt_back_door_lock:
   icon: mdi:battery
 
@@ -40,6 +43,9 @@ lock.back_door_locked_15_0:
   friendly_name: Back Door Lock
 
 ### Misc ###
+
+cover.garage_door:
+  icon: mdi:garage-open
 
 media_player.roku_4a654n088111:
   friendly_name: Roku
