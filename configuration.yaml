@@ -79,8 +79,6 @@ zwave:
 camera:
   - platform: mjpeg
     mjpeg_url: http://192.168.0.106/image/jpeg.cgi
-
-camera:
   - platform: generic
     still_image_url: http://194.168.0.106/
     name: Kitchen Camera
