@@ -78,7 +78,7 @@ zwave:
 
 camera:
   - platform: mjpeg
-    mjpeg_url: http://192.168.0.106/image/jpeg.cgi
+    mjpeg_url: http://192.168.0.112/image/jpeg.cgi
     name: Kitchen Camera
 
 cover:
