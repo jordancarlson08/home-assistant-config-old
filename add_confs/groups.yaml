@@ -3,7 +3,7 @@
 ### groups.yaml ###
 ###################
 
-default_view:
+home:
   view: yes
   name: Home
   entities:
