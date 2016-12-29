@@ -38,8 +38,9 @@ kitchen:
 master_bedroom:
   name: Master Bedroom
   entities:
-    - light.dimmer_module_level_13_0
+    - light.master_fan_level_17_0
     - switch.outdoor_switch_switch_8_0
+    - light.dimmer_module_level_13_0
 
 door_back:
   name: Back Door
