@@ -43,10 +43,6 @@ mqtt:
   username: Home Assistant
   password: !secret mqtt_password
 
-media_player:
-  platform: roku
-  host: 192.168.0.110
-
 notify:
   - name: Simple
     platform: simplepush
@@ -92,21 +88,4 @@ cover:
     state_open: "STATE_OPEN"
     state_closed: "STATE_CLOSED"
 #    optimistic: false
-#    value_template: '{{ value.x }}'
-
-#garage_door:
-#  - platform: mqtt
-#    state_topic: "garage/state"
-#    command_topic: "garage/command"
-#    name: "Garage Door"
-#    qos: 0
-#    payload_open: "SERVICE_OPEN"
-#    payload_close: "SERVICE_CLOSE"
-#    payload_stop: "SERVICE_STOP"
-#    service_open: "SERVICE_OPEN"
-#    service_close: "SERVICE_CLOSE"
-#    state_open: "STATE_OPEN"
-#    state_closed: "STATE_CLOSED"
-#    optimistic: true
-#    retain: false
 #    value_template: '{{ value.x }}'

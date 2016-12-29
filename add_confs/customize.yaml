@@ -13,6 +13,19 @@
 switch.outdoor_switch_switch_8_0:
   friendly_name: Heating Pad
 
+switch.kitchen_pendant_switch_16_0:
+  friendly_name: Kitchen Pendant
+
+switch.dining_room_switch_18_0:
+  friendly_name: Dining Room
+
+switch.family_room_switch_19_0:
+  friendly_name: Family Room
+
+light.master_fan_level_17_0:
+  friendly_name: Master Fan
+  icon: mdi:fan
+
 ### Lights ###
 
 light.dimmer_module_level_13_0:
