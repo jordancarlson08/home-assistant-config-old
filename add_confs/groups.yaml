@@ -4,6 +4,7 @@
 ###################
 
 home:
+  view: yes
   name: Home
   entities:
     - sun.sun
@@ -16,6 +17,7 @@ home:
     - group.garage
 
 upstairs:
+  view: yes
   name: Upstairs
   entities:
     - sensor.upstairs_temperature
@@ -70,9 +72,3 @@ door_info:
   entities:
     - sensor.batt_back_door_lock
     - sensor.batt_back_door
-
-# garage_info:
-#   name: Garage
-#   entities:
-#     - garage_door.garage_door
-#     - sensor.garage_door_state
