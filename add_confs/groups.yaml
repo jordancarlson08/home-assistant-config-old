@@ -18,7 +18,8 @@ default_view:
     - switch.family_room_switch_19_0
     - lock.back_door_locked_15_0
     - sensor.back_door
-    - group.garage
+    - cover.garage_door
+    - sensor.garage_door_sensor
 
 upstairs:
   view: yes
@@ -29,12 +30,6 @@ upstairs:
     - switch.outdoor_switch_switch_8_0
     - light.dimmer_module_level_13_0
 
-garage:
-  name: Garage
-  view: no
-  entities:
-    - cover.garage_door
-    - sensor.garage_door_sensor
 
 info:
   view: yes
