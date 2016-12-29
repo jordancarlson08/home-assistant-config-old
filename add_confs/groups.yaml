@@ -12,8 +12,12 @@ default_view:
     - device_tracker.jordan_pixel
     - sensor.weather_temperature
     - sensor.home_temperature
-    - group.kitchen
-    - group.door_back
+    - light.kitchen_dimmer_level_14_0
+    - switch.kitchen_pendant_switch_16_0
+    - switch.dining_room_switch_18_0
+    - switch.family_room_switch_19_0
+    - lock.back_door_locked_15_0
+    - sensor.back_door
     - group.garage
 
 upstairs:
@@ -21,44 +25,9 @@ upstairs:
   name: Upstairs
   entities:
     - sensor.upstairs_temperature
-    - group.master_bedroom
-
-info:
-  view: yes
-  name: Info
-  entities:
-    - sensor.disk_use_home
-    - sensor.ram_use
-    - group.home_assistant_status
-    - group.door_info
-    - group.all_automations
-
-
-
-
-kitchen:
-  name: Kitchen
-  view: no
-  entities:
-    - light.kitchen_dimmer_level_14_0
-    - switch.kitchen_pendant_switch_16_0
-    - switch.dining_room_switch_18_0
-    - switch.family_room_switch_19_0
-
-master_bedroom:
-  name: Master Bedroom
-  view: no
-  entities:
     - light.master_fan_level_17_0
     - switch.outdoor_switch_switch_8_0
     - light.dimmer_module_level_13_0
-
-door_back:
-  name: Back Door
-  view: no
-  entities:
-    - lock.back_door_locked_15_0
-    - sensor.back_door
 
 garage:
   name: Garage
@@ -67,17 +36,97 @@ garage:
     - cover.garage_door
     - sensor.garage_door_sensor
 
-home_assistant_status:
-  name: System
-  view: no
+info:
+  view: yes
+  name: Info
   entities:
+    - sensor.disk_use_home
+    - sensor.ram_use
     - script.restart_ha
     - script.reload_ha
     - script.watch_movie
-
-door_info:
-  name: Doors
-  view: no
-  entities:
     - sensor.batt_back_door_lock
     - sensor.batt_back_door
+    - group.all_automations
+
+
+
+###################
+### groups.yaml ###
+###################
+#
+#default_view:
+#  view: yes
+#  name: Home
+#  entities:
+#    - sun.sun
+#    - device_tracker.jenna_jenna_iphone
+#    - device_tracker.jordan_pixel
+#    - sensor.weather_temperature
+#    - sensor.home_temperature
+#    - group.kitchen
+#    - group.door_back
+#    - group.garage
+#
+#upstairs:
+#  view: yes
+#  name: Upstairs
+#  entities:
+#    - sensor.upstairs_temperature
+#    - group.master_bedroom
+#
+#info:
+#  view: yes
+#  name: Info
+#  entities:
+#    - sensor.disk_use_home
+#    - sensor.ram_use
+#    - group.home_assistant_status
+#    - group.door_info
+#    - group.all_automations
+#
+#kitchen:
+#  name: Kitchen
+#  view: no
+#  entities:
+#    - light.kitchen_dimmer_level_14_0
+#    - switch.kitchen_pendant_switch_16_0
+#    - switch.dining_room_switch_18_0
+#    - switch.family_room_switch_19_0
+#
+#master_bedroom:
+#  name: Master Bedroom
+#  view: no
+#  entities:
+#    - light.master_fan_level_17_0
+#    - switch.outdoor_switch_switch_8_0
+#    - light.dimmer_module_level_13_0
+#
+#door_back:
+#  name: Back Door
+#  view: no
+#  entities:
+#    - lock.back_door_locked_15_0
+#    - sensor.back_door
+#
+#garage:
+#  name: Garage
+#  view: no
+#  entities:
+#    - cover.garage_door
+#    - sensor.garage_door_sensor
+#
+#home_assistant_status:
+#  name: System
+#  view: no
+#  entities:
+#    - script.restart_ha
+#    - script.reload_ha
+#    - script.watch_movie
+#
+#door_info:
+#  name: Doors
+#  view: no
+#  entities:
+#    - sensor.batt_back_door_lock
+#    - sensor.batt_back_door
