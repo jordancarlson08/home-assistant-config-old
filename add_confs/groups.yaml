@@ -13,6 +13,7 @@ home:
     - sensor.home_temperature
     - sensor.upstairs_temperature
     - group.kitchen
+    - camera.kitchen_camera
     - group.master_bedroom
     - group.door_back
     - group.garage
