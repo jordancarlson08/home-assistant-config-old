@@ -3,7 +3,7 @@
 ### groups.yaml ###
 ###################
 
-home:
+default_view:
   view: yes
   name: Home
   entities:
@@ -32,6 +32,9 @@ info:
     - group.home_assistant_status
     - group.door_info
     - group.all_automations
+
+
+
 
 kitchen:
   name: Kitchen
