@@ -18,6 +18,13 @@ home:
     - group.door_back
     - group.garage
 
+upstairs:
+  view: yes
+  name: Upstairs
+  entities:
+    - sensor.upstairs_temperature
+    - group.master_bedroom
+
 info:
   view: yes
   name: Info
