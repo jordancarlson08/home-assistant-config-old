@@ -38,6 +38,7 @@ info:
 
 kitchen:
   name: Kitchen
+  view: no
   entities:
     - light.kitchen_dimmer_level_14_0
     - switch.kitchen_pendant_switch_16_0
@@ -46,6 +47,7 @@ kitchen:
 
 master_bedroom:
   name: Master Bedroom
+  view: no
   entities:
     - light.master_fan_level_17_0
     - switch.outdoor_switch_switch_8_0
@@ -53,18 +55,21 @@ master_bedroom:
 
 door_back:
   name: Back Door
+  view: no
   entities:
     - lock.back_door_locked_15_0
     - sensor.back_door
 
 garage:
   name: Garage
+  view: no
   entities:
     - cover.garage_door
     - sensor.garage_door_sensor
 
 home_assistant_status:
   name: System
+  view: no
   entities:
     - script.restart_ha
     - script.reload_ha
@@ -72,6 +77,7 @@ home_assistant_status:
 
 door_info:
   name: Doors
+  view: no
   entities:
     - sensor.batt_back_door_lock
     - sensor.batt_back_door
