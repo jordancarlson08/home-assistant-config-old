@@ -33,6 +33,7 @@ kitchen:
     - light.kitchen_dimmer_level_14_0
     - switch.kitchen_pendant_switch_16_0
     - switch.dining_room_switch_18_0
+    - switch.family_room_switch_19_0
 
 master_bedroom:
   name: Master Bedroom
