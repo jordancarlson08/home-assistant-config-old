@@ -33,6 +33,7 @@ info:
     - group.home_assistant_status
     - group.door_info
     - group.all_automations
+    - group.all_scripts
 
 kitchen:
   name: Kitchen
