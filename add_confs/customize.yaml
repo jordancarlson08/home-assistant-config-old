@@ -61,6 +61,9 @@ lock.back_door_locked_15_0:
 media_player.kitchen_home:
   friendly_name: Google Home
 
+media_player.mibox3:
+  friendly_name: Mi Box TV
+
 # script.reload_ha:
 #   icon: mdi:undo
 #   friendly_name: "Reload Config"
