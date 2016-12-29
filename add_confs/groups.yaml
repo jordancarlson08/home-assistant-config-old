@@ -29,6 +29,7 @@ info:
   entities:
     - sensor.disk_use_home
     - sensor.ram_use
+    - climate.home
     - group.home_assistant_status
     - group.door_info
     - group.all_automations
