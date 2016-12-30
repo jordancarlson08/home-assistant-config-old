@@ -1,7 +1,9 @@
 
 name: Movie
 entities:
-  group.kitchen: off
+  switch.dining_room_switch_18_0: off
+  switch.family_room_switch_19_0: off
+  switch.kitchen_pendant_switch_16_0: off
   light.kitchen_dimmer_level_14_0:
     state: on
     brightness: 150
