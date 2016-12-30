@@ -4,7 +4,6 @@ sequence:
     name: AV
     message: "Watch a Movie launched"
 - service: shell_command.watch_movie
-- service: media_player.select_source
+- service: scene.turn_on
   data:
-    entity_id: media_player.roku_4a654n088111
-    source: Plex
+    entity_id: scene.movie
