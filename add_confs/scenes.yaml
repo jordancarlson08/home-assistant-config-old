@@ -1,0 +1,7 @@
+
+name: Movie
+entities:
+  group.kitchen: off
+  light.kitchen_dimmer_level_14_0:
+    state: on
+    brightness: 150

@@ -26,6 +26,7 @@ sun:
 sensor: !include add_confs/sensors.yaml
 zone: !include add_confs/zones.yaml
 group: !include add_confs/groups.yaml
+scene: !include add_confs/scenes.yaml
 automation: !include add_confs/automation.yaml
 script: !include add_confs/scripts.yaml
 shell_command: !include add_confs/shell_commands.yaml
