@@ -6,7 +6,6 @@ default_view:
   view: yes
   name: Home
   entities:
-    - sun.sun
     - device_tracker.jenna_jenna_iphone
     - device_tracker.jordan_pixel
     - sensor.weather_temperature
