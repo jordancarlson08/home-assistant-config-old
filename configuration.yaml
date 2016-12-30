@@ -89,7 +89,3 @@ cover:
     state_closed: "STATE_CLOSED"
 #    optimistic: false
 #    value_template: '{{ value.x }}'
-
-media_player:
-  - platform: braviatv
-    host: 192.168.0.111
