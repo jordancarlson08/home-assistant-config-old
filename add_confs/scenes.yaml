@@ -6,4 +6,4 @@ entities:
   switch.kitchen_pendant_switch_16_0: off
   light.kitchen_dimmer_level_14_0:
     state: on
-    brightness: 150
+    brightness: 80
