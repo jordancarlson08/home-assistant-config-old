@@ -13,7 +13,7 @@ import datetime
 class Garage(appapi.AppDaemon):
     def initialize(self):
 
-        self.listen_state(self.notify_garage(), "cover.garage_door")
+        self.listen_state(self.notify_garage, "cover.garage_door")
 
         time = datetime.datetime.now().time()
         time = time.strftime('%l:%M:%S %p')
