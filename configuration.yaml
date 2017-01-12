@@ -90,3 +90,8 @@ cover:
     state_closed: "STATE_CLOSED"
 #    optimistic: false
 #    value_template: '{{ value.x }}'
+
+
+emulated_hue:
+  type: google_home
+  listen_port: 80
