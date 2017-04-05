@@ -35,9 +35,9 @@ class Garage(appapi.AppDaemon):
         if (new == 'open'):
         	# Start a timer
         	self.handle = self.run_in(self.notify_garage_open, 300)
-        # else:
+        else:
         # 	# if handler isn't null, cancel timer
-        # 	self.cancel_timer(handle)
+        	self.cancel_timer(self.handle)
 
 
 
@@ -50,7 +50,7 @@ class Garage(appapi.AppDaemon):
 
 
     def notify_garage_open(self, kwargs):
-        self.call_service("notify/html5", title="Garage", message="Garage open for 15 seconds")    	
+        self.call_service("notify/html5", title="Garage", message="Garage open for 5 minutes.")    	
 
 
 # 2017-04-05 14:49:09.234471 DEBUG Event type:state_changed:
