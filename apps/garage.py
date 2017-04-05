@@ -11,6 +11,9 @@ import datetime
 #
 
 class Garage(appapi.AppDaemon):
+
+	handle = None
+
     def initialize(self):
 
         self.listen_state(self.notify_garage, "cover.garage_door")
@@ -31,7 +34,7 @@ class Garage(appapi.AppDaemon):
     def garage_reminder(self, entity, attribute, old, new, kwargs):
         if (new == 'open'):
         	# Start a timer
-        	self.handle = self.run_in(self.notify_garage_open, 30)
+        	handle = self.run_in(self.notify_garage_open, 30)
         else:
         	# if handler isn't null, cancel timer
         	self.cancel_timer(handle)
