@@ -46,7 +46,7 @@ class Garage(appapi.AppDaemon):
         self.call_service("notify/html5", title="Garage", message=new + " at " + time)
 
 
-    def notify_garage_open(self):
+    def notify_garage_open(self, kwargs):
         self.call_service("notify/html5", title="Garage", message="Garage open for 15 seconds")    	
 
 
