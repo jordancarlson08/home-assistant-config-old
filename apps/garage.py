@@ -31,10 +31,10 @@ class Garage(appapi.AppDaemon):
     def garage_reminder(self, entity, attribute, old, new, kwargs):
         if (new == 'open'):
         	# Start a timer
-        	self.handle = self.run_in(self.notify_garage_open, 15)
-        # else:
+        	self.handle = self.run_in(self.notify_garage_open, 30)
+        else:
         	# if handler isn't null, cancel timer
-        	# self.cancel_timer(handle)
+        	self.cancel_timer(handle)
 
 
 
