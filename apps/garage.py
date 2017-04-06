@@ -23,7 +23,9 @@ class Garage(appapi.AppDaemon):
         actions = [{"action" : "garage_close", "title": "Close Garage"}]
         data = {"tag" : "garage_reminder", "action" : actions}
 
-        self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time, data=data)
+        actionData={"actions": [ {"action": "manual_action", "title": "Close Garage" } ] } 
+
+        self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time, data=actionData)
 
     def notify_garage(self, entity, attribute, old, new, kwargs):
         time = datetime.datetime.now().time()
@@ -37,7 +39,7 @@ class Garage(appapi.AppDaemon):
             # Start a timer
             self.handle = self.run_in(self.notify_garage_open, 300)
         else:
-        #   # if handler isn't null, cancel timer
+            # if handler isn't null, cancel timer
             self.cancel_timer(self.handle)
 
     def notify_garage_open(self, kwargs):
