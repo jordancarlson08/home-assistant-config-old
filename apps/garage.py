@@ -43,5 +43,5 @@ class Garage(appapi.AppDaemon):
         actionData={"tag" : "garage_reminder", "actions": [ {"action": "garage_close", "title": "Close Garage" } ] } 
         self.call_service("notify/html5", title="Garage", message="Garage open for 5 minutes.", data=actionData)      
 
-    def close_garage(self, kwargs):
+    def close_garage(self, arg, arg2, kwargs):
         self.call_service("cover/close_cover", entity_id="cover.garage_door")
