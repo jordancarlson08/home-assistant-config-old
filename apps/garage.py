@@ -23,7 +23,7 @@ class Garage(appapi.AppDaemon):
         actions = [{"action" : "garage_close", "title": "Close Garage"}]
         data = {"tag" : "garage_reminder", "action" : action}
 
-        self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time, , data=data)
+        self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time, data=data)
 
     def notify_garage(self, entity, attribute, old, new, kwargs):
         time = datetime.datetime.now().time()
