@@ -15,18 +15,11 @@ class Garage(appapi.AppDaemon):
         self.listen_state(self.garage_reminder, "cover.garage_door")
         self.listen_event(self.close_garage, event="html5_notification.clicked", action="garage_close")
 
-        time = datetime.datetime.now().time()
-        time = time.strftime('%l:%M:%S %p')
+        time = datetime.datetime.now().time().strftime('%l:%M:%S %p')
         self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time)
 
-
-        actionData={"tag" : "garage_reminder", "actions": [ {"action": "garage_close", "title": "Close Garage" } ] } 
-        self.call_service("notify/html5", title="Garage", message="Test action", data=actionData)     
-
-
     def notify_garage(self, entity, attribute, old, new, kwargs):
-        time = datetime.datetime.now().time()
-        time = time.strftime('%l:%M:%S %p')
+        time = datetime.datetime.now().time().strftime('%l:%M:%S %p')
         actionData={ "tag" : "garage_" + new }
         self.call_service("notify/html5", title="Garage", message=new + " at " + time, data=actionData)
 
