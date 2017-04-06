@@ -3,17 +3,13 @@ import datetime
 
 
 #
-# Lock Sync App
+# Garage App
+# Notifications and reminders
 #
 # Args:
-#   lock    -- entity id of the lock
-#   alarm   -- entity id of the "lock alarm"
 #
 
 class Garage(appapi.AppDaemon):
-
-    # handle = None
-
     def initialize(self):
 
         self.listen_state(self.notify_garage, "cover.garage_door")
@@ -22,7 +18,12 @@ class Garage(appapi.AppDaemon):
 
         time = datetime.datetime.now().time()
         time = time.strftime('%l:%M:%S %p')
-        self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time)
+
+
+        actions = [{"action" : "garage_close", "title": "Close Garage"}]
+        data = {"tag" : "garage_reminder", "action" : action}
+
+        self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time, , data=data)
 
     def notify_garage(self, entity, attribute, old, new, kwargs):
         time = datetime.datetime.now().time()
@@ -33,20 +34,12 @@ class Garage(appapi.AppDaemon):
 
     def garage_reminder(self, entity, attribute, old, new, kwargs):
         if (new == 'open'):
-        	# Start a timer
-        	self.handle = self.run_in(self.notify_garage_open, 300)
+            # Start a timer
+            self.handle = self.run_in(self.notify_garage_open, 300)
         else:
-        # 	# if handler isn't null, cancel timer
-        	self.cancel_timer(self.handle)
-
-
-
+        #   # if handler isn't null, cancel timer
+            self.cancel_timer(self.handle)
 
     def notify_garage_open(self, kwargs):
-        self.call_service("notify/html5", title="Garage", message="Garage open for 5 minutes.")    	
 
-
-# 2017-04-05 14:49:09.234471 DEBUG Event type:state_changed:
-# 2017-04-05 14:49:09.235124 DEBUG {'entity_id': 'cover.garage_door', 
-# 'old_state': {'entity_id': 'cover.garage_door', 'attributes': {'friendly_name': 'Garage Door'}, 'state': 'closed', 'last_updated': '2017-04-05T17:20:04.676486+00:00', 'last_changed': '2017-04-05T17:20:04.676486+00:00'}, 
-# 'new_state': {'entity_id': 'cover.garage_door', 'attributes': {'friendly_name': 'Garage Door'}, 'state': 'open', 'last_updated': '2017-04-05T20:49:09.122719+00:00', 'last_changed': '2017-04-05T20:49:09.122719+00:00'}}
+        self.call_service("notify/html5", title="Garage", message="Garage open for 5 minutes.")      
