@@ -20,10 +20,7 @@ class Garage(appapi.AppDaemon):
         time = time.strftime('%l:%M:%S %p')
 
 
-        actions = [{"action" : "garage_close", "title": "Close Garage"}]
-        data = {"tag" : "garage_reminder", "action" : actions}
-
-        actionData={"actions": [ {"action": "manual_action", "title": "Close Garage" } ] } 
+        actionData={"tag" : "garage_reminder", "actions": [ {"action": "garage_close", "title": "Close Garage" } ] } 
 
         self.call_service("notify/html5", title="Garage", message="Garage initialized at " + time, data=actionData)
 
