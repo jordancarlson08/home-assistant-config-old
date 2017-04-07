@@ -55,7 +55,7 @@ master_bedroom:
   entities:
     - light.master_fan_level_17_0
     - switch.outdoor_switch_switch_8_0
-    - light.dimmer_module_level_13_0
+    - light.__level_20_0
 
 door_back:
   name: Back Door

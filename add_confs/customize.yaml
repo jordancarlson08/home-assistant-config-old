@@ -28,8 +28,8 @@ light.master_fan_level_17_0:
 
 ### Lights ###
 
-light.dimmer_module_level_13_0:
-  friendly_name: Living Room Lamp
+light.__level_20_0:
+  friendly_name: Jordan Lamp
 
 ### Sensors ###
 
