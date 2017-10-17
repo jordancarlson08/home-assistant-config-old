@@ -81,3 +81,14 @@ door_info:
   entities:
     - sensor.batt_back_door_lock
     - sensor.batt_back_door
+
+goodbye:
+  name: Goodbye
+  entities:
+    - light.kitchen_dimmer_level_14_0
+    - switch.kitchen_pendant_switch_16_0
+    - switch.dining_room_switch_18_0
+    - switch.family_room_switch_19_0
+    - light.master_fan_level_17_0
+    - switch.outdoor_switch_switch_8_0
+    - light.__level_20_0
