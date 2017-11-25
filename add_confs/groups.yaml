@@ -45,17 +45,15 @@ info:
 kitchen:
   name: Kitchen
   entities:
-    - light.kitchen_dimmer_level_14_0
-    - switch.kitchen_pendant_switch_16_0
-    - switch.dining_room_switch_18_0
-    - switch.family_room_switch_19_0
+    - light.kitchen_dimmer_level
+    - switch.itchen_pendant_switch
 
 master_bedroom:
   name: Master Bedroom
   entities:
-    - light.master_fan_level_17_0
-    - switch.outdoor_switch_switch_8_0
-    - light.__level_20_0
+    - light.master_fan_level
+    - switch.outdoor_switch_switch
+    - light.level
 
 door_back:
   name: Back Door
@@ -85,10 +83,10 @@ door_info:
 goodbye:
   name: Goodbye
   entities:
-    - light.kitchen_dimmer_level_14_0
-    - switch.kitchen_pendant_switch_16_0
+    - light.kitchen_dimmer_level
+    - switch.itchen_pendant_switch
     - switch.dining_room_switch_18_0
     - switch.family_room_switch_19_0
-    - light.master_fan_level_17_0
-    - switch.outdoor_switch_switch_8_0
-    - light.__level_20_0
+    - light.master_fan_level
+    - switch.outdoor_switch_switch
+    - light.level
