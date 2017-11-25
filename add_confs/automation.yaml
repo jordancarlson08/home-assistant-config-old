@@ -12,7 +12,7 @@
       to: 'on'
   action:
     service: light.turn_on
-    entity_id: light.__level_20_0
+    entity_id: light.level
 
 - alias: 'Jenna Night Light OFF'
   trigger:
@@ -22,7 +22,7 @@
       to: 'off'
   action:
     service: light.turn_off
-    entity_id: light.__level_20_0
+    entity_id: light.level
 
 
 ### Heating Pad Schedule ##########################################
@@ -32,7 +32,7 @@
       after: '20:30:00'
   action:
     service: switch.turn_on
-    entity_id: switch.outdoor_switch_switch_8_0
+    entity_id: switch.outdoor_switch_switch
 
 - alias: 'Heating Pad OFF'
   trigger:
@@ -40,7 +40,7 @@
       after: '10:30:00'
   action:
     service: switch.turn_off
-    entity_id: switch.outdoor_switch_switch_8_0
+    entity_id: switch.outdoor_switch_switch
 
 
 
