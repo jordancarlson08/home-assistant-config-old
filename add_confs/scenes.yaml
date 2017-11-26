@@ -3,7 +3,7 @@ name: Movie
 entities:
   switch.dining_room_switch_18_0: off
   switch.family_room_switch_19_0: off
-  switch.itchen_pendant_switch: off
+  switch.kitchen_pendant_switch: off
   light.kitchen_dimmer_level:
     state: on
     brightness: 80

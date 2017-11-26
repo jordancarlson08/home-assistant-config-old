@@ -46,12 +46,12 @@ kitchen:
   name: Kitchen
   entities:
     - light.kitchen_dimmer_level
-    - switch.itchen_pendant_switch
+    - switch.kitchen_pendant_switch
 
 master_bedroom:
   name: Master Bedroom
   entities:
-    - light.master_fan_level
+    - fan.master_fan_level
     - switch.outdoor_switch_switch
     - light.level
 
@@ -84,9 +84,9 @@ goodbye:
   name: Goodbye
   entities:
     - light.kitchen_dimmer_level
-    - switch.itchen_pendant_switch
+    - switch.kitchen_pendant_switch
     - switch.dining_room_switch_18_0
     - switch.family_room_switch_19_0
-    - light.master_fan_level
+    - fan.master_fan_level
     - switch.outdoor_switch_switch
     - light.level
