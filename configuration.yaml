@@ -86,7 +86,7 @@ zwave:
     light.kitchen_dimmer_level:
       polling_intensity: 1
       refresh_value: true
-      delay: 2
+      delay: 1
 
 camera:
   - platform: mjpeg
